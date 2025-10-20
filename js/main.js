@@ -536,7 +536,7 @@ $(function () {
             btnLink: "",
             linkText: "احجز أداءً",
             linkUrl: "https://calendly.com/bernadayoub",
-            bgImgPath: "img/concert-bg.jpg",
+            bgImgPath: "img/bg.jpg",
             imgPath: "img/berna-performance.jpg",
           },
           counters: [
@@ -951,7 +951,7 @@ $(function () {
             btnLink: "",
             linkText: "Réserver une performance",
             linkUrl: "https://calendly.com/bernadayoub",
-            bgImgPath: "img/concert-bg.jpg",
+            bgImgPath: "img/bg.jpg",
             imgPath: "img/berna-performance.jpg",
           },
           counters: [
