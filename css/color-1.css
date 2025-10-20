@@ -1,0 +1,589 @@
+:root {
+  --pC: #FFB6C1; /* Light Pink بدل #70CDDD */
+  --bg-primary: #FFFAFA; /* Snow White */
+  --bg-secondary: #FFFFFF; /* Pure White */
+  --text-primary: #2C2C2C; /* Dark Gray */
+  --text-secondary: #666666; /* Medium Gray */
+  --border-color: #E8E8E8; /* Light Gray */
+  --shadow-color: rgba(0, 0, 0, 0.05); /* Light Shadow */
+  --pC: #FFB6C1;
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8F9FA;
+  --text-primary: #2C2C2C;
+  --text-secondary: #666666;
+  --text-light: #888888;
+  --border-color: #E8E8E8;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+.a {
+  color: #FFF5F5; /* Very Light Pink */
+}
+
+.art-link.art-color-link {
+  color: var(--pC);
+}
+
+.art-link.art-color-link:hover {
+  color: var(--pC);
+}
+
+.art-btn {
+  background: var(--pC);
+  color: #FFFFFF; /* White text on pink buttons */
+}
+
+blockquote {
+  background: #FFF0F5; /* Lavender Blush */
+  color: #2C2C2C; /* Dark Gray text */
+}
+
+.art-custom-list li:before {
+  border: solid 2px var(--pC);
+}
+
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
+  background: var(--pC);
+}
+
+.art-info-bar .art-name:hover a {
+  color: var(--pC);
+}
+
+.art-info-bar .art-knowledge-list li:before {
+  color: var(--pC);
+}
+
+.art-menu-bar .art-language-change li.art-active-lang {
+  background-color: var(--pC);
+}
+
+.art-code i {
+  color: var(--pC);
+}
+
+.art-counter-frame .art-counter-box .art-counter {
+  color: var(--pC);
+}
+
+.art-counter-frame .art-counter-box .art-counter-plus {
+  color: var(--pC);
+}
+
+.art-price.art-popular-price:before {
+  background: var(--pC);
+  color: #FFFFFF; /* White text */
+}
+
+.art-price .art-price-body .art-price-cost .art-number {
+  color: var(--pC);
+}
+
+.art-price .art-price-body .art-price-list li:before {
+  color: var(--pC);
+}
+
+.art-price .art-price-body .art-price-list li.art-empty-item:before {
+  color: var(--pC);
+}
+
+.art-testimonial .art-testimonial-footer .art-star-rate {
+  color: var(--pC);
+}
+
+.art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--pC);
+}
+
+.fancybox-progress {
+  background: var(--pC);
+}
+
+.fancybox-thumbs__list a:before {
+  border-color: var(--pC);
+}
+
+.art-timeline .art-timeline-item .art-timeline-mark {
+  border: solid 3px var(--pC);
+}
+
+.art-form-field textarea.art-active {
+  border-color: var(--pC);
+}
+
+.art-form-field textarea:focus {
+  border-color: var(--pC);
+}
+
+.art-contact-form .art-input.art-active+label, 
+.art-contact-form .art-input:focus+label {
+  background: var(--pC);
+  color: #FFFFFF; /* White text */
+}
+
+.art-pagination .art-pagination-center a.art-active-pag {
+  color: var(--pC);
+}
+
+.art-preloader-load path:last-child {
+  stroke: var(--pC);
+}
+
+.art-line-progress path:last-child {
+  stroke: var(--pC);
+}
+
+.art-cirkle-progress path:last-child {
+  stroke: var(--pC);
+}
+
+/* إضافة تنسيقات الخلفية والنصوص */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
+
+.art-app {
+  background: var(--bg-primary);
+}
+
+.art-app .art-app-wrapper {
+  background: var(--bg-secondary);
+}
+
+.art-card {
+  background: var(--bg-secondary);
+  box-shadow: 0 3px 8px 0 var(--shadow-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--text-secondary);
+}
+
+a:hover {
+  color: var(--text-primary);
+}
+
+/* ----- text defaults ----- */
+body {
+  color: var(--text-secondary);
+}
+
+/* ----- title defaults ----- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+.art-white {
+  color: var(--text-primary);
+}
+
+/* ----- suptitle ----- */
+.art-el-suptitle {
+  color: var(--text-light);
+}
+
+/* ----- divider ----- */
+.art-ls-divider {
+  background: var(--border-color);
+}
+
+/* ----- link defaults ----- */
+a {
+  color: var(--text-secondary);
+}
+a:hover {
+  color: var(--text-primary);
+}
+
+/* ----- table ----- */
+.art-table {
+  color: var(--text-secondary);
+}
+
+/* ----- quote ----- */
+blockquote {
+  background: var(--pC);
+  color: var(--text-primary);
+}
+blockquote:before, blockquote:after {
+  color: var(--text-primary);
+}
+
+/* ----- list ----- */
+.art-custom-list li {
+  color: var(--text-primary);
+}
+
+/* ------------------------------
+link
+------------------------------ */
+.art-link {
+  color: var(--text-secondary);
+}
+.art-link:hover {
+  color: var(--text-primary);
+}
+.art-link.art-white-link {
+  color: var(--text-primary);
+}
+.art-link.art-white-link:hover {
+  color: var(--text-primary);
+}
+
+/* ------------------------------
+button
+------------------------------ */
+.art-btn {
+  color: var(--text-primary);
+  background: var(--pC);
+}
+.art-btn:hover {
+  color: var(--text-primary);
+}
+
+/* ------------------------------
+app marcup
+------------------------------ */
+/* ----- top background ----- */
+.art-top-bg .art-top-bg-overlay {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.93) 0%, rgba(255, 255, 255, 0.96) 70%, rgba(255, 255, 255, 0.99) 80%, #FFFFFF 100%);
+}
+
+/* ----- preloader ----- */
+.art-preloader {
+  background: var(--bg-primary);
+}
+.art-preloader .art-preloader-content .art-preloader-load .progressbar-text {
+  color: var(--text-secondary) !important;
+}
+
+.art-preloader-load path:first-child {
+  stroke: var(--border-color);
+}
+
+/* ----- app ----- */
+.art-app {
+  background: var(--bg-primary);
+}
+.art-app .art-mobile-top-bar {
+  background: var(--bg-secondary);
+}
+.art-app .art-app-wrapper {
+  background: var(--bg-secondary);
+}
+.art-app .art-app-wrapper .art-app-container .art-info-bar {
+  background: var(--bg-primary);
+}
+.art-app .art-app-wrapper .art-app-container .art-content .art-curtain {
+  background: rgba(255, 255, 255, 0.88);
+}
+.art-app .art-app-wrapper .art-app-container .art-menu-bar {
+  background: var(--bg-primary);
+}
+
+.art-app .art-app-wrapper .art-app-container .art-menu-bar .art-menu-bar-frame .art-menu-bar-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  box-shadow: 0 1px 4px 0 var(--shadow-color);
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%);
+}
+
+
+/* ------------------------------
+info bar
+------------------------------ */
+.art-info-bar .art-header {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%);
+}
+.art-info-bar .art-header .art-avatar .art-avatar-curtain i {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 249, 250, 0.88) 100%);
+  color: var(--text-primary);
+}
+.art-info-bar .art-header .art-avatar .art-lamp-light:before {
+  background: var(--text-primary);
+}
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp:after {
+  color: var(--text-secondary);
+  background: var(--bg-primary);
+}
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp:before {
+  background: var(--bg-primary);
+}
+.art-info-bar .art-name {
+  color: var(--text-primary);
+}
+.art-info-bar .art-name a {
+  color: var(--text-primary);
+}
+.art-info-bar .art-lang-skills .art-lang-skills-item .art-cirkle-progress .progressbar-text {
+  color: var(--text-secondary) !important;
+}
+.art-info-bar .art-hard-skills .art-hard-skills-item .art-line-progress .progressbar-text {
+  color: var(--text-secondary) !important;
+}
+.art-info-bar .art-knowledge-list li {
+  color: var(--text-secondary);
+}
+.art-info-bar .art-ls-social {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%);
+}
+.art-info-bar .art-ls-social a {
+  color: var(--text-secondary);
+}
+.art-info-bar .art-ls-social a:hover {
+  color: var(--text-primary);
+}
+
+/* ----- progresbar color ----- */
+.art-line-progress path:first-child {
+  stroke: var(--border-color);
+}
+
+.art-cirkle-progress path:first-child {
+  stroke: var(--border-color);
+}
+
+/* ------------------------------
+menu bar
+------------------------------ */
+.art-menu-bar nav .main-menu .menu-item a {
+  color: var(--text-secondary);
+}
+.art-menu-bar nav .main-menu .menu-item a:hover {
+  color: var(--text-primary);
+}
+.art-menu-bar nav .main-menu .menu-item .sub-menu {
+  background: var(--bg-secondary);
+}
+.art-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
+  color: var(--text-primary);
+}
+.art-menu-bar nav .main-menu .menu-item.current-menu-item .sub-menu .menu-item a:hover {
+  color: var(--text-primary);
+}
+.art-menu-bar .art-language-change {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%);
+}
+.art-menu-bar .art-language-change li {
+  background: var(--bg-secondary);
+}
+.art-menu-bar .art-language-change li.art-active-lang a {
+  color: var(--text-primary);
+}
+.art-menu-bar .art-current-page {
+  color: var(--text-primary);
+}
+
+/* ------------------------------
+content
+------------------------------ */
+/* ----- card ----- */
+.art-card {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+/* ----- banner ----- */
+.art-banner-back {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.art-banner .art-banner-overlay {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 15%, rgba(255, 255, 255, 0.7) 50%, rgba(248, 249, 250, 0.7) 100%);
+}
+.art-banner .art-banner-overlay .art-banner-title h1 {
+  color: var(--text-primary);
+}
+
+/* ----- typing code ----- */
+.art-code {
+  color: var(--text-primary);
+}
+
+/* ----- services ----- */
+.art-service-icon-box {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+/* ----- prices ----- */
+.art-price {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+.art-price.art-popular-price:before {
+  color: var(--text-primary);
+}
+.art-price .art-price-body .art-price-cost .art-number span {
+  color: var(--text-primary);
+}
+
+/* ----- testimonials ----- */
+.art-testimonial {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+.art-testimonial .art-testimonial-footer .art-star-rate {
+  background: var(--bg-secondary);
+}
+.art-testimonial .art-testimonial-footer .art-star-rate li.art-empty-item {
+  color: var(--border-color);
+}
+
+/* ----- timeline ----- */
+.art-timeline::before {
+  background: var(--border-color);
+}
+.art-timeline .art-timeline-content {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+.art-timeline .art-timeline-content:after {
+  background-color: var(--bg-secondary);
+}
+.art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
+  color: var(--text-light);
+  background: var(--bg-secondary);
+}
+
+/* ----- contact form ----- */
+.art-form-field input, .art-form-field textarea {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-primary);
+}
+.art-form-field textarea {
+  border-left: solid 50px var(--bg-secondary);
+}
+.art-contact-form label {
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+}
+.art-submit-frame .art-success {
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+/* ----- blog ----- */
+.art-blog-card .art-post-description {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+/* ----- pagination ----- */
+.art-pagination {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+/* ----- footer ----- */
+footer {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-secondary);
+}
+footer a:hover {
+  color: var(--text-primary);
+}
+
+/* ------------------------------
+portfolio
+------------------------------ */
+/* ----- filter ----- */
+.art-filter a {
+  color: var(--text-secondary);
+}
+.art-filter a.art-current {
+  color: var(--text-primary);
+}
+
+/* ----- portfolio items ----- */
+.art-portfolio-item-frame .art-item-hover {
+  color: var(--text-primary);
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 249, 250, 0.88) 100%);
+}
+
+.art-grid .art-grid-item .art-item-description {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 249, 250, 0.98) 100%);
+}
+
+.art-project-category {
+  color: var(--text-light);
+  background: var(--bg-secondary);
+}
+
+/* ----- fancybox customization ----- */
+.fancybox-container .fancybox-bg {
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.fancybox-toolbar {
+  background: linear-gradient(159deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 249, 250, 0.88) 100%);
+}
+.fancybox-toolbar .fancybox-button {
+  color: var(--text-secondary);
+}
+.fancybox-toolbar .fancybox-button:hover {
+  color: var(--text-primary);
+}
+
+.fancybox-infobar {
+  color: var(--text-secondary);
+}
+
+.fancybox-thumbs {
+  background: linear-gradient(159deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+/* ------------------------------
+burger button
+------------------------------ */
+.art-menu-bar-btn span, .art-menu-bar-btn span:after, .art-menu-bar-btn span:before {
+  background: var(--text-secondary);
+}
+.art-menu-bar-btn:hover span, .art-menu-bar-btn:hover span:after, .art-menu-bar-btn:hover span:before {
+  background: var(--text-primary);
+}
+
+/* إضافة box-shadow فاتحة لجميع العناصر */
+.art-card,
+.art-info-bar,
+.art-menu-bar,
+.art-banner,
+.art-service-icon-box,
+.art-price,
+.art-testimonial,
+.art-timeline .art-timeline-content,
+.art-blog-card,
+.art-pagination,
+.art-portfolio-item-frame,
+.art-project-cover,
+.fancybox-toolbar,
+.fancybox-thumbs {
+  box-shadow: 0 3px 8px 0 var(--shadow-color);
+}
+
+.art-info-bar .art-header,
+.art-info-bar .art-ls-social,
+.art-menu-bar .art-language-change,
+.art-testimonial .art-testimonial-footer .art-star-rate,
+.art-timeline .art-timeline-content .art-card-header .art-right-side .art-date,
+.art-project-category {
+  box-shadow: 0 1px 4px 0 var(--shadow-color);
+}
+
+.art-menu-bar .art-language-change li,
+.art-testimonial .art-testimonial-footer .art-star-rate,
+.art-timeline .art-timeline-content .art-card-header .art-right-side .art-date,
+.art-project-category {
+  box-shadow: inset 0 1px 4px 0 var(--shadow-color);
+}
+
+/* إضافة border فاتحة */
+.art-form-field input,
+.art-form-field textarea {
+  border: 1px solid var(--border-color);
+}
