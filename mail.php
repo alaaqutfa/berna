@@ -1,7 +1,7 @@
 <?php
 
 $recepient = "alaa.qutfa@limitless-tech.cloud";
-$sitename = "Alaa Qutfa";
+$sitename = "Berna Dayoub";
 
 $name = trim($_POST["name"]);
 $email = trim($_POST["email"]);

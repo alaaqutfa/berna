@@ -1388,7 +1388,7 @@ $(function () {
           <img
             src="img/face-2.png"
             class="art-banner-photo"
-            alt="Alaa Qutfa"
+            alt="Berna Dayoub"
           />
         </div>
       </div>
