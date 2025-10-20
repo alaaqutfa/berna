@@ -121,7 +121,7 @@ $(function () {
           btnLink: "",
           linkText: "Book a performance",
           linkUrl: "https://calendly.com/bernadayoub",
-          bgImgPath: "img/concert-bg.jpg",
+          bgImgPath: "img/bg.jpg",
           imgPath: "img/berna-performance.jpg",
         },
         counters: [
