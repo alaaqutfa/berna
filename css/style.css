@@ -1407,7 +1407,10 @@ content
   bottom: 10px;
   left: 0;
   text-align: center;
-  font-size: 8px;
+  font-size: 10px;
+  color: #222;
+  font-weight: 500;
+  line-height: 10.25px;
   opacity: 0.4;
 }
 .art-price .art-price-body .art-price-cost {
@@ -1885,8 +1888,8 @@ portfolio
   height: 100%;
   top: 0;
   left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -o-object-position: center;
      object-position: center;
   filter: brightness(85%) blur(0);
