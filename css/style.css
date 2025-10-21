@@ -923,7 +923,7 @@ info bar
 .art-info-bar .art-lang-skills .art-lang-skills-item .art-cirkle-progress .progressbar-text:after {
   content: "%";
   position: absolute;
-  right: -7px;
+  right: -10px;
 }
 .art-info-bar .art-hard-skills .art-hard-skills-item {
   margin-bottom: 15px;
@@ -1303,7 +1303,7 @@ content
   color: rgb(250, 250, 252);
 }
 .art-banner .art-banner-overlay .art-banner-photo {
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   width: 390px;
   position: absolute;
   right: 30px;
