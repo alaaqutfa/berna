@@ -7,65 +7,37 @@ $(function () {
       Top: {
         Avatar: "img/face-1.png",
         Name: "Berna Dayoub",
-        Post: `Professional Violinist`,
+        Post: "Violinist"
       },
       Scroll: {
         About: [
-          ["Age", currentYear - 1996],
-          ["Residence", "Lebanon"],
-          ["City", "Beirut"],
+          ["Country", "Lebanon"],
+          ["City", "Beirut"]
         ],
         Languages: [
-          {
-            Id: "circleprog1",
-            Type: "Circle",
-            Name: "Arabic",
-            Progress: "p100",
-          },
-          {
-            Id: "circleprog2",
-            Type: "Circle",
-            Name: "English",
-            Progress: "p95",
-          },
-          {
-            Id: "circleprog3",
-            Type: "Circle",
-            Name: "French",
-            Progress: "p90",
-          },
+          { Id: "circleprog1", Type: "Circle", Name: "Arabic", Progress: "p100" },
+          { Id: "circleprog2", Type: "Circle", Name: "English", Progress: "p80" },
+          { Id: "circleprog3", Type: "Circle", Name: "French", Progress: "p100" }
         ],
         Skills: [
-          // Violin Techniques :
           {
-            Title: "Violin Techniques :",
+            Title: "Violin Techniques:",
             items: [
-              { id: "lineprog1", Type: "line", Name: "Classical Violin", Progress: "100" },
-              { id: "lineprog2", Type: "line", Name: "Jazz Violin", Progress: "90" },
-              { id: "lineprog3", Type: "line", Name: "Improvisation", Progress: "95" },
-              { id: "lineprog4", Type: "line", Name: "Sight Reading", Progress: "100" },
-              { id: "lineprog5", Type: "line", Name: "Music Theory", Progress: "100" },
-            ],
+              { id: "lineprog1", Type: "line", Name: "Classical Violin", Progress: 100 },
+              { id: "lineprog2", Type: "line", Name: "Jazz Violin", Progress: 90 },
+              { id: "lineprog3", Type: "line", Name: "Improvisation", Progress: 95 },
+              { id: "lineprog4", Type: "line", Name: "Sight Reading", Progress: 100 },
+              { id: "lineprog5", Type: "line", Name: "Music Theory", Progress: 100 }
+            ]
           },
-          // Performance Styles :
           {
-            Title: "Performance Styles :",
+            Title: "Teaching Skills:",
             items: [
-              { id: "lineprog6", Type: "line", Name: "Solo Performance", Progress: "100" },
-              { id: "lineprog7", Type: "line", Name: "Orchestral Playing", Progress: "95" },
-              { id: "lineprog8", Type: "line", Name: "Chamber Music", Progress: "90" },
-              { id: "lineprog9", Type: "line", Name: "Contemporary Music", Progress: "85" },
-            ],
-          },
-          // Teaching Skills :
-          {
-            Title: "Teaching Skills :",
-            items: [
-              { id: "lineprog10", Type: "line", Name: "Violin Pedagogy", Progress: "95" },
-              { id: "lineprog11", Type: "line", Name: "Master Classes", Progress: "90" },
-              { id: "lineprog12", Type: "line", Name: "Online Lessons", Progress: "85" },
-            ],
-          },
+              { id: "lineprog10", Type: "line", Name: "Violin Pedagogy", Progress: 95 },
+              { id: "lineprog11", Type: "line", Name: "Master Classes", Progress: 90 },
+              { id: "lineprog12", Type: "line", Name: "Online Lessons", Progress: 100 }
+            ]
+          }
         ],
         Knowledges: [
           "Extensive repertoire knowledge",
@@ -74,7 +46,7 @@ $(function () {
           "Recording studio experience",
           "Collaboration with other musicians",
           "Music festival participation",
-          "Cross-cultural musical fusion",
+          "Cross‑cultural musical fusion",
           "Audience engagement techniques",
           "Music direction",
           "Sound engineering basics",
@@ -83,212 +55,178 @@ $(function () {
           "Concert planning and production",
           "Music education methodologies",
           "Digital music platforms",
-          "Music copyright and licensing",
+          "Music copyright and licensing"
         ],
-        CV: "files/bernadayoub-cv.pdf",
+        CV: "files/bernadayoub-cv.pdf"
       },
       Bottom: {
         tiktok: [
           "https://www.tiktok.com/@berna_dayoub",
-          `<i class="fa-brands fa-tiktok"></i>`,
+          "<i class=\"fa-brands fa-tiktok\"></i>"
         ],
         Whatsapp: [
-          "https://wa.me/+96181311749",
-          `<i class="fa-brands fa-whatsapp"></i>`,
+          "https://wa.me/+96181139596",
+          "<i class=\"fa-brands fa-whatsapp\"></i>"
         ],
         Facebook: [
           "https://www.facebook.com/bernadayoub.violin",
-          `<i class="fa-brands fa-facebook"></i>`,
+          "<i class=\"fa-brands fa-facebook\"></i>"
         ],
         Instagram: [
           "https://www.instagram.com/bernadayoub.violin",
-          `<i class="fa-brands fa-instagram"></i>`,
+          "<i class=\"fa-brands fa-instagram\"></i>"
         ],
         Youtube: [
           "https://www.youtube.com/bernadayoub",
-          `<i class="fa-brands fa-youtube"></i>`,
-        ],
-      },
+          "<i class=\"fa-brands fa-youtube\"></i>"
+        ]
+      }
     },
     Content: {
       home: {
         banner: {
-          title: "Discover my Magical <br />Musical World!",
-          startStaticPhrae: "&lt;<i>♫</i>&gt; I play",
-          slidePhrases: `["soulful melodies.", "classical symphonies.", "Arabic rhythms.", "contemporary fusion.", "heart-touching music."]`,
-          endStaticPhrae: "&lt;/<i>♫</i>&gt;",
+          title: "Join the <br />World of Music!",
+          startStaticPhrae: "<i>♫</i> I play",
+          slidePhrases: "[\"soulful melodies.\", \"classical symphonies.\", \"Arabic rhythms.\", \"contemporary music.\", \"heart‑touching music.\"]",
+          endStaticPhrae: "</i>♫</i>",
           btnText: "Listen now",
           btnLink: "",
           linkText: "Book a performance",
           linkUrl: "https://calendly.com/bernadayoub",
           bgImgPath: "img/bg.jpg",
-          imgPath: "img/bg.jpg",
+          imgPath: "img/bg.jpg"
         },
         counters: [
-          ["Years Performing", currentYear - 2014],
-          ["Concerts Played", 120],
-          ["Students Taught", 65],
-          ["Awards Won", 8],
+          ["Years of playing", 10],
+          ["Concerts", 120],
+          ["Students Taught", 65]
         ],
         services: [
           {
-            title: "Live Performances",
-            description: `Experience the magic of live violin music for your events, weddings, corporate functions, and special occasions. I bring emotion and elegance to every performance.`,
-            linkUrl: "https://wa.me/+96181311749",
-          },
-          {
             title: "Music Recording",
-            description: `Professional violin recording services for albums, film scores, commercials, and musical projects with high-quality studio equipment.`,
-            linkUrl: "https://wa.me/+96181311749",
+            description: "Professional violin recording services for albums, film scores, commercials, and musical projects with high‑quality studio equipment.",
+            linkUrl: "https://wa.me/+96181139596"
           },
           {
             title: "Violin Lessons",
-            description: `Personalized violin instruction for all levels, from beginners to advanced players, focusing on technique, musicality, and personal expression.`,
-            linkUrl: "https://wa.me/+96181311749",
+            description: "Personalized violin instruction for all academic levels, from beginners to advanced players, focusing on technique, musicality, and personal expression.",
+            linkUrl: "https://wa.me/+96181139596"
           },
           {
             title: "Music Composition",
-            description: `Custom music composition and arrangement services for your projects, blending classical training with contemporary influences.`,
-            linkUrl: "https://wa.me/+96181311749",
-          },
-          {
-            title: "Orchestral Work",
-            description: `Professional orchestral violin performance with experience in symphony orchestras, chamber ensembles, and musical theater productions.`,
-            linkUrl: "https://wa.me/+96181311749",
+            description: "Custom music composition and arrangement services for your projects, blending classical training with contemporary influences.",
+            linkUrl: "https://wa.me/+96181139596"
           },
           {
             title: "Workshops & Masterclasses",
-            description: `Educational workshops and masterclasses for music schools, universities, and cultural institutions focusing on violin technique and musical interpretation.`,
-            linkUrl: "https://wa.me/+96181311749",
-          },
+            description: "Educational workshops and masterclasses for music schools, universities, and cultural institutions focusing on violin technique and musical interpretation.",
+            linkUrl: "https://wa.me/+96181139596"
+          }
         ],
         prices: [
           {
             title: "String of Beginnings",
-            price: `<span>$</span>20<span> / course</span>`,
+            price: "<span>$</span>25<span> / course</span>",
             isPopular: false,
             conditions: [
               ["Introduction to the basics of violin playing", false],
-              ["Understanding violin parts and proper posture", false],
-              ["Simple scales and beginner exercises", false],
-              ["Developing a sense of rhythm and timing", false],
-              ["Reading basic musical notation", false],
-              ["Practice strategies for steady progress", false],
-              ["Lifetime access to all video lessons", false],
-              ["Certificate of completion", true],
-              ["Performance evaluation by Berna", true],
-              ["Bonus warm-up routines", true],
+              ["Teaching 3 fingers on all strings", false],
+              ["Understanding instrument parts and proper posture", false],
+              ["Simple scales exercises", false],
+              ["Rhythm and musical counting", false],
+              ["Reading sheet music for beginners", false],
+              ["Tips for building an effective practice routine", false],
+              ["Lifetime access to educational videos", false],
+              ["Certificate of completion", false],
+              ["Evaluation by Berna", false],
+              ["Bonus warm‑up exercises", false]
             ],
-            linkUrl: "https://wa.me/+96181311749",
-            note: "The first step in your musical journey",
+            linkUrl: "https://wa.me/+96181139596",
+            note: "The first step in your musical journey"
           },
           {
             title: "Tones of Foundation",
-            price: `<span>$</span>30<span> / course</span>`,
-            isPopular: true,
+            price: "<span>$</span>35<span> / course</span>",
+            isPopular: false,
             conditions: [
               ["Intermediate bow control techniques", false],
-              ["Improving finger placement and intonation", false],
+              ["Improving finger placement on strings", false],
               ["Introduction to vibrato", false],
-              ["Performing simple musical pieces with expression", false],
-              ["Downloadable PDF exercises", false],
-              ["Intermediate rhythm and coordination drills", false],
-              ["Play-along ensemble practices", false],
-              ["Certificate of completion", true],
-              ["Access to future lesson updates", true],
-              ["Email interaction with Berna", true],
+              ["Playing simple pieces with musical feeling", false],
+              ["Teaching the 4th finger on all strings", false],
+              ["Medium‑difficulty rhythm exercises", false],
+              ["Group playing applications", false],
+              ["Certificate of completion", false],
+              ["Continuous lesson updates", false],
+              ["Direct email communication with Berna", false],
+              ["Second part of the second finger", false],
+              ["Song: Ezel", false],
+              ["GAME OF THRONES", false]
             ],
-            linkUrl: "https://wa.me/+96181311749",
-            note: "The stage where your musical voice begins to form",
+            linkUrl: "https://wa.me/+96181139596",
+            note: "The stage where you build your true musical voice"
           },
           {
             title: "Rhythm of Progress",
-            price: `<span>$</span>40<span> / course</span>`,
+            price: "<span>$</span>45<span> / course</span>",
             isPopular: false,
             conditions: [
-              ["Advanced control of bowing and dynamics", false],
-              ["Performing challenging intermediate repertoire", false],
-              ["Expanding tonal range and expression", false],
+              ["Developing control of rhythm and dynamics", false],
+              ["Playing advanced‑level pieces", false],
+              ["Expanding tonal and expressive range", false],
               ["Analyzing complex musical phrases", false],
-              ["Applying professional-level techniques", false],
-              ["Recording and performance tips", false],
-              ["Access to extended video lessons", false],
-              ["Certificate of completion", true],
-              ["Priority student support", true],
-              ["Access to masterclasses", true],
+              ["Applying professional performance techniques", false],
+              ["Recording and performance sharing tips", false],
+              ["Additional video classes", false],
+              ["Playing with music", false]
             ],
-            linkUrl: "https://wa.me/+96181311749",
-            note: "For players ready to advance toward professionalism",
+            linkUrl: "https://wa.me/+96181139596",
+            note: "For those who wish to move to the professional level"
           },
           {
             title: "Voice of Expression",
-            price: `<span>$</span>50<span> / course</span>`,
+            price: "<span>$</span>50<span> / course</span>",
             isPopular: false,
             conditions: [
-              ["Emotional control and expressive phrasing", false],
-              ["Building a unique artistic identity", false],
-              ["Developing stage presence and improvisation", false],
-              ["Preparing for concerts and competitions", false],
-              ["Artistic and interpretive development", false],
-              ["Advanced analysis of musical style", false],
-              ["Personal expression and tone shaping", false],
-              ["Certificate of excellence", true],
-              ["One-on-one evaluation session with Berna", true],
-              ["Career guidance and mentorship", true],
+              ["New songs", false],
+              ["New bow techniques", false],
+              ["Developing musical improvisation", false],
+              ["Designing a personal playing style", false],
+              ["EXPERIENCE", false],
+              ["INTERSTELLAR", false],
+              ["Career guidance for artistic development", false]
             ],
-            linkUrl: "https://wa.me/+96181311749",
-            note: "A deep exploration of musical emotion and identity",
+            linkUrl: "https://wa.me/+96181139596",
+            note: "The journey of true expression through music"
           },
           {
             title: "The Violin Stage",
-            price: `<span>$</span>60<span> / course</span>`,
+            price: "<span>$</span>70<span> / course</span>",
             isPopular: false,
             conditions: [
-              ["Full access to all course levels", false],
-              ["Exclusive lessons and behind-the-scenes content", false],
-              ["Live private consultations with Berna", false],
-              ["Professional performance review and feedback", false],
-              ["Opportunities for artistic collaboration", false],
-              ["Continuous course updates", false],
-              ["Personal long-term development plan", false],
-              ["Certificate of mastery", true],
-              ["Ongoing mentorship and coaching", true],
-              ["Lifetime artistic guidance", true],
+              ["Comprehensive access to advanced academic level", false],
+              ["Playing with professional sheet music", false],
+              ["SCALES AND ARPEGGIOS", false],
+              ["2ND POSITION", false],
+              ["3RD POSITION", false],
+              ["CONCERT", false],
+              ["Continuous lesson updates", false],
+              ["Long‑term personal development plan", false],
+              ["CONCERT VIVALDI", false],
+              ["Explanation of violin tuning", false],
+              ["Violin assembly/maintenance", false]
             ],
-            linkUrl: "https://wa.me/+96181311749",
-            note: "The complete violin learning experience from beginner to stage performance",
-          },
-        ],
-        recommendations: [
-          {
-            imgPath: "img/testimonials/director.jpg",
-            name: "Leila Khoury",
-            description: "Event Director - Beirut International Festival",
-            text: `Berna's performances are simply mesmerizing. Her ability to blend classical technique with Arabic rhythms creates a unique musical experience that captivates audiences. She has been a highlight of our festival for three consecutive years.`,
-            stars: 5,
-          },
-          {
-            imgPath: "img/testimonials/student.jpg",
-            name: "Yara Chamoun",
-            description: "Music Student",
-            text: `Studying violin with Berna has transformed my understanding of music. Her teaching methods are innovative yet rooted in solid technique. She inspires her students to find their own musical voice while maintaining technical excellence.`,
-            stars: 5,
-          },
-          {
-            imgPath: "img/testimonials/producer.jpg",
-            name: "Samir Fares",
-            description: "Music Producer",
-            text: `Working with Berna in the studio is a producer's dream. Her precision, musicality, and professionalism make every session productive and inspiring. She brings depth and emotion to every note she plays.`,
-            stars: 5,
-          },
-        ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "The complete journey of a violinist towards the stage and professionalism"
+          }
+        ]
       },
       gallery: {
         filter_nav: [
-          ["*", "All Performances"],
-          [".live", "Live Concerts"],
-          [".studio", "Studio Recordings"],
-          [".teaching", "Teaching"],
+          ["*", "All performances"],
+          [".live", "Live concerts"],
+          [".studio", "Studio recordings"],
+          [".teaching", "Teaching"]
         ],
         filter_list: [
           {
@@ -296,26 +234,26 @@ $(function () {
             imgPath: "img/gallery/studio-1.png",
             title: "Experience",
             description: "",
-            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-            hBG: [true, "#000"],
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066",
+            hBG: [true, "#000"]
           },
           {
             type: "studio",
             imgPath: "img/gallery/studio-2.png",
             title: "Memories",
             description: "",
-            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-            hBG: [true, "#000"],
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895",
+            hBG: [true, "#000"]
           },
           {
             type: "studio",
             imgPath: "img/gallery/studio-3.png",
             title: "",
             description: "",
-            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-            hBG: [true, "#000"],
-          },
-        ],
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040",
+            hBG: [true, "#000"]
+          }
+        ]
       },
       history: [
         {
@@ -323,25 +261,23 @@ $(function () {
           data: [
             {
               box: "diplome",
-              type: "Master Degree",
-              src: "Lebanese National Conservatory",
+              type: "Master",
+              src: "National Higher Conservatory",
               title: "Violin Performance",
-              date: "2018",
-              description: "Master of Music in Violin Performance with honors",
+              date: "2010-2020",
+              description: "",
               linkPath: "files/conservatory-diploma.jpg",
-              havePopup: false,
-              popup: null,
+              havePopup: false
             },
             {
               box: "diplome",
-              type: "Bachelor Degree",
-              src: "Higher Institute of Music, Damascus",
+              type: "Bachelor",
+              src: "BCA",
               title: "Music Performance",
               date: "2015",
               description: "Bachelor of Arts in Music Performance, Violin Major",
               linkPath: "files/bachelor-diploma.jpg",
-              havePopup: false,
-              popup: null,
+              havePopup: false
             },
             {
               box: "diplome",
@@ -351,10 +287,9 @@ $(function () {
               date: "2019",
               description: "Advanced diploma in violin performance and pedagogy",
               linkPath: "files/royal-academy.jpg",
-              havePopup: false,
-              popup: null,
-            },
-          ],
+              havePopup: false
+            }
+          ]
         },
         {
           title: "Performance History",
@@ -362,24 +297,22 @@ $(function () {
             {
               box: "recommendation",
               type: "Soloist",
-              src: "Beirut International Festival",
-              title: "Featured Performer",
-              date: "2021-2024",
-              description: `Annual featured soloist at Lebanon's premier music festival, performing to audiences of 3,000+`,
+              src: "LIVE VENUE",
+              title: "Soloist",
+              date: "2023-2024",
+              description: "",
               linkPath: "https://beirutfestival.org",
-              havePopup: false,
-              popup: {},
+              havePopup: false
             },
             {
               box: "recommendation",
               type: "Orchestral",
-              src: "Lebanese National Symphony",
+              src: "Lebanese National Higher Conservatory Orchestra",
               title: "First Violin",
-              date: "2018-2023",
-              description: `First violin section member of the National Symphony Orchestra, performing classical repertoire and contemporary works`,
+              date: "2019-2022",
+              description: "",
               linkPath: "https://lns-orchestra.lb",
-              havePopup: false,
-              popup: {},
+              havePopup: false
             },
             {
               box: "recommendation",
@@ -387,13 +320,12 @@ $(function () {
               src: "Lebanese National Conservatory",
               title: "Violin Professor",
               date: "2019-Present",
-              description: `Professor of violin studies, teaching undergraduate and graduate students in performance and pedagogy`,
+              description: "Professor of violin studies, teaching undergraduate and graduate students in performance and pedagogy",
               linkPath: "https://conservatory.gov.lb",
-              havePopup: false,
-              popup: {},
-            },
-          ],
-        },
+              havePopup: false
+            }
+          ]
+        }
       ],
       contact: [
         {
@@ -401,852 +333,750 @@ $(function () {
           data: [
             ["Country:", "Lebanon", "l"],
             ["City:", "Beirut", "l"],
-            ["Studio:", "Music Quarter, Hamra Street", "l"],
-          ],
+            ["Studio:", "Music Quarter, Hamra Street", "l"]
+          ]
         },
         {
           id: 2,
           data: [
             ["Email:", "me@berna-violin.art", "e"],
-            ["Whatsapp:", "+96181311749", "w"],
-            ["Studio:", "+96113876543", "p"],
-          ],
-        },
-      ],
+            ["WhatsApp:", "+96181139596", "w"],
+            ["Phone:", "+96113876543", "p"]
+          ]
+        }
+      ]
     },
     Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
-    Copyright: ["https://wa.me/+96181311749", "Berna Dayoub"],
+    Copyright: ["https://wa.me/+96181139596", "Berna Dayoub"],
     Menu: ["Home", "Gallery", "Career", "Contact"],
     Language: [
       ["EN", true, "en"],
       ["AR", false, "ar"],
-      ["FR", false, "fr"],
+      ["FR", false, "fr"]
     ],
     Preloader: {
       id: "preloader",
       Name: "Berna Dayoub",
-      JobTitle: "Professional Violinist",
-    },
-  },
-    portfolio_ar = {
-      Data: {
-        Top: {
-          Avatar: "img/face-1.png",
-          Name: "بيرنا ديوب",
-          Post: `عازفة كمان محترفة`,
-        },
-        Scroll: {
-          About: [
-            ["العمر", currentYear - 1996],
-            ["البلد", "لبنان"],
-            ["المدينة", "بيروت"],
-          ],
-          Languages: [
-            {
-              Id: "circleprog1",
-              Type: "Circle",
-              Name: "العربية",
-              Progress: "p100",
-            },
-            {
-              Id: "circleprog2",
-              Type: "Circle",
-              Name: "الإنجليزية",
-              Progress: "p95",
-            },
-            {
-              Id: "circleprog3",
-              Type: "Circle",
-              Name: "الفرنسية",
-              Progress: "p90",
-            },
-          ],
-          Skills: [
-            // تقنيات الكمان :
-            {
-              Title: "تقنيات الكمان :",
-              items: [
-                { id: "lineprog1", Type: "line", Name: "الكمان الكلاسيكي", Progress: "100" },
-                { id: "lineprog2", Type: "line", Name: "كمان الجاز", Progress: "90" },
-                { id: "lineprog3", Type: "line", Name: "الارتجال", Progress: "95" },
-                { id: "lineprog4", Type: "line", Name: "القراءة البصرية", Progress: "100" },
-                { id: "lineprog5", Type: "line", Name: "النظرية الموسيقية", Progress: "100" },
-              ],
-            },
-            // أساليب الأداء :
-            {
-              Title: "أساليب الأداء :",
-              items: [
-                { id: "lineprog6", Type: "line", Name: "العزف المنفرد", Progress: "100" },
-                { id: "lineprog7", Type: "line", Name: "العزف الأوركسترالي", Progress: "95" },
-                { id: "lineprog8", Type: "line", Name: "موسيقى الحجرة", Progress: "90" },
-                { id: "lineprog9", Type: "line", Name: "الموسيقى المعاصرة", Progress: "85" },
-              ],
-            },
-            // مهارات التدريس :
-            {
-              Title: "مهارات التدريس :",
-              items: [
-                { id: "lineprog10", Type: "line", Name: "طرق تدريس الكمان", Progress: "95" },
-                { id: "lineprog11", Type: "line", Name: "صفوف الماستركلاس", Progress: "90" },
-                { id: "lineprog12", Type: "line", Name: "الدروس عبر الإنترنت", Progress: "85" },
-              ],
-            },
-          ],
-          Knowledges: [
-            "معرفة واسعة بالريبورتوار",
-            "تأليف وتوزيع الموسيقى",
-            "الحضور المسرحي والأداء",
-            "خبرة في استوديوهات التسجيل",
-            "التعاون مع الموسيقيين الآخرين",
-            "المشاركة في المهرجانات الموسيقية",
-            "الدمج الموسيقي بين الثقافات",
-            "تقنيات جذب الجمهور",
-            "الإخراج الموسيقي",
-            "أساسيات هندسة الصوت",
-            "صيانة الآلات الموسيقية",
-            "إدارة الأعمال الموسيقية",
-            "تخطيط وإنتاج الحفلات",
-            "منهجيات التعليم الموسيقي",
-            "المنصات الموسيقية الرقمية",
-            "حقوق الطبع والتراخيص الموسيقية",
-          ],
-          CV: "files/bernadayoub-cv.pdf",
-        },
-        Bottom: {
-          tiktok: [
-            "https://www.tiktok.com/@berna_dayoub",
-            `<i class="fa-brands fa-tiktok"></i>`,
-          ],
-          Whatsapp: [
-            "https://wa.me/+96181311749",
-            `<i class="fa-brands fa-whatsapp"></i>`,
-          ],
-          Facebook: [
-            "https://www.facebook.com/bernadayoub.violin",
-            `<i class="fa-brands fa-facebook"></i>`,
-          ],
-          Instagram: [
-            "https://www.instagram.com/bernadayoub.violin",
-            `<i class="fa-brands fa-instagram"></i>`,
-          ],
-          Youtube: [
-            "https://www.youtube.com/bernadayoub",
-            `<i class="fa-brands fa-youtube"></i>`,
-          ],
-        },
-      },
-      Content: {
-        home: {
-          banner: {
-            title: "اكتشف عالمي <br />الموسيقي الساحر!",
-            startStaticPhrae: "&lt;<i>♫</i>&gt; أعزف",
-            slidePhrases: `["أنغاماً تمسّ الروح.", "سيمفونيات كلاسيكية.", "إيقاعات عربية.", "موسيقى معاصرة.", "موسيقى تلامس القلب."]`,
-            endStaticPhrae: "&lt;/<i>♫</i>&gt;",
-            btnText: "استمع الآن",
-            btnLink: "",
-            linkText: "احجز أداءً",
-            linkUrl: "https://calendly.com/bernadayoub",
-            bgImgPath: "img/bg.jpg",
-            imgPath: "img/bg.jpg",
-          },
-          counters: [
-            ["سنوات العزف", currentYear - 2014],
-            ["الحفلات الموسيقية", 120],
-            ["الطلاب المُدرَّبين", 65],
-            ["الجوائز المُحرزة", 8],
-          ],
-          services: [
-            {
-              title: "العروض الحية",
-              description: `اختبر سحر موسيقى الكمان الحية لفعالياتك وحفلات الزفاف والمناسبات الخاصة. أضفي المشاعر والأناقة على كل أداء.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "التسجيلات الموسيقية",
-              description: `خدمات تسجيل كمان احترافية للألبومات وموسيقى الأفلام والإعلانات والمشاريع الموسيقية بمعدات استوديو عالية الجودة.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "دروس الكمان",
-              description: `تعليم كمان مخصص لجميع المستويات، من المبتدئين إلى المتقدمين، يركز على التقنية والموسيقية والتعبير الشخصي.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "التأليف الموسيقي",
-              description: `خدمات تأليف وتوزيع موسيقي مخصصة لمشاريعك، تمزج بين التدريب الكلاسيكي والتأثيرات المعاصرة.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "العمل الأوركسترالي",
-              description: `أداء كمان أوركسترالي احترافي مع خبرة في الأوركسترات السمفونية وموسيقى الحجرة وعروض المسرح الموسيقي.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "ورش العمل والماستركلاس",
-              description: `ورش عمل تعليمية وصفوف ماستركلاس لمدارس الموسيقى والجامعات والمؤسسات الثقافية تركز على تقنية الكمان والتفسير الموسيقي.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-          ],
-          prices: [
-            {
-              title: "وتر البداية",
-              price: `<span>$</span>20<span> / دورة</span>`,
-              isPopular: false,
-              conditions: [
-                ["مقدمة في أساسيات العزف على الكمان", false],
-                ["التعرف على أجزاء الآلة ووضعية العزف الصحيحة", false],
-                ["تمارين السلالم البسيطة", false],
-                ["الإيقاع والعدّ الموسيقي", false],
-                ["قراءة النوتة الموسيقية للمبتدئين", false],
-                ["نصائح لبناء روتين تدريب فعّال", false],
-                ["وصول دائم للفيديوهات التعليمية", false],
-                ["شهادة إتمام الدورة", true],
-                ["تقييم من بيرنا", true],
-                ["تمارين إضافية للإحماء", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "الخطوة الأولى في رحلتك الموسيقية",
-            },
-            {
-              title: "أنغام التأسيس",
-              price: `<span>$</span>30<span> / دورة</span>`,
-              isPopular: true,
-              conditions: [
-                ["تقنيات متوسطة في التحكم بالقوس", false],
-                ["تحسين وضع الأصابع على الأوتار", false],
-                ["البدء بتطبيق الاهتزاز (Vibrato)", false],
-                ["عزف مقطوعات بسيطة بإحساس موسيقي", false],
-                ["ملفات PDF للتدريب المنزلي", false],
-                ["تمارين إيقاع متوسطة الصعوبة", false],
-                ["تطبيقات للعزف الجماعي", false],
-                ["شهادة إتمام الدورة", true],
-                ["تحديثات مستمرة للدروس", true],
-                ["تواصل مباشر عبر البريد مع بيرنا", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "المرحلة التي تبني فيها صوتك الموسيقي الحقيقي",
-            },
-            {
-              title: "إيقاع التقدم",
-              price: `<span>$</span>40<span> / دورة</span>`,
-              isPopular: false,
-              conditions: [
-                ["تطوير التحكم في الإيقاع والديناميكية", false],
-                ["عزف مقطوعات من المستوى المتقدم", false],
-                ["توسيع المدى الصوتي والتعبيري", false],
-                ["تحليل الجمل الموسيقية المعقدة", false],
-                ["تطبيق تقنيات الأداء الاحترافي", false],
-                ["نصائح تسجيل ومشاركة الأداء", false],
-                ["صفوف فيديو إضافية", false],
-                ["شهادة إتمام الدورة", true],
-                ["دعم أولوية من بيرنا", true],
-                ["وصول إلى ورش الماستر", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "لمن يرغب بالانتقال إلى المستوى الاحترافي",
-            },
-            {
-              title: "صوت التعبير",
-              price: `<span>$</span>50<span> / دورة</span>`,
-              isPopular: false,
-              conditions: [
-                ["التحكم بالتعبير العاطفي أثناء العزف", false],
-                ["بناء هوية موسيقية خاصة", false],
-                ["تطبيق تقنيات الأداء الحي", false],
-                ["تطوير الارتجال الموسيقي", false],
-                ["إعداد الطالب للمسابقات والعروض", false],
-                ["تصميم أسلوب شخصي في العزف", false],
-                ["تحليل موسيقي متقدم", false],
-                ["شهادة تميز", true],
-                ["جلسة تقييم فردية مع بيرنا", true],
-                ["توجيه مهني لتطوير المسار الفني", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "رحلة التعبير الحقيقي من خلال الموسيقى",
-            },
-            {
-              title: "مسرح الكمان",
-              price: `<span>$</span>60<span> / دورة</span>`,
-              isPopular: false,
-              conditions: [
-                ["وصول شامل إلى جميع المستويات", false],
-                ["دروس حصرية ومحتوى خاص بالكواليس", false],
-                ["جلسات فردية مباشرة مع بيرنا", false],
-                ["تحليل وتقييم أداء احترافي", false],
-                ["تعاونات موسيقية حقيقية", false],
-                ["تحديثات مستمرة للدروس", false],
-                ["خطة تطوير شخصية طويلة المدى", false],
-                ["شهادة إتقان عليا", true],
-                ["توجيه شخصي متواصل", true],
-                ["إشراف مدى الحياة", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "الرحلة الكاملة لعازف الكمان نحو المسرح والاحتراف",
-            },
-          ],
-          recommendations: [
-            {
-              imgPath: "img/testimonials/director.jpg",
-              name: "ليلى خوري",
-              description: "مديرة فعاليات - مهرجان بيروت الدولي",
-              text: `عروض بيرنا ببساطة تأسر الألباب. قدرتها على مزج التقنية الكلاسيكية مع الإيقاعات العربية تخلق تجربة موسيقية فريدة تفتن الجماهير. لقد كانت نجمًا بارزًا في مهرجاننا لثلاث سنوات متتالية.`,
-              stars: 5,
-            },
-            {
-              imgPath: "img/testimonials/student.jpg",
-              name: "يارا شمعون",
-              description: "طالبة موسيقى",
-              text: `دراسة الكمان مع بيرنا غيرت فهمي للموسيقى. طرق تدريسها مبتكرة لكنها متجذرة في تقنية صلبة. هي تلهم طلابها لإيجاد صوتهم الموسيقي الخاص مع الحفاظ على التميز التقني.`,
-              stars: 5,
-            },
-            {
-              imgPath: "img/testimonials/producer.jpg",
-              name: "سمير فارس",
-              description: "منتج موسيقي",
-              text: `العمل مع بيرنا في الاستوديو هو حلم أي منتج. دقتها وموسيقيتها واحترافيتها تجعل كل جلسة منتجة وملهمة. هي تجلب العمق والعاطفة إلى كل نوتة تعزفها.`,
-              stars: 5,
-            },
-          ],
-        },
-        gallery: {
-          filter_nav: [
-            ["*", "جميع العروض"],
-            [".live", "حفلات حية"],
-            [".studio", "تسجيلات استوديو"],
-            [".teaching", "التدريس"],
-          ],
-          filter_list: [
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-1.png",
-              title: "Experience",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-2.png",
-              title: "Memories",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-3.png",
-              title: "",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-          ],
-        },
-        history: [
-          {
-            title: "التعليم",
-            data: [
-              {
-                box: "diplome",
-                type: "ماجستير",
-                src: "المعهد الوطني اللبناني",
-                title: "أداء الكمان",
-                date: "2018",
-                description: "ماجستير في الموسيقى بأداء الكمان بامتياز",
-                linkPath: "files/conservatory-diploma.jpg",
-                havePopup: false,
-                popup: null,
-              },
-              {
-                box: "diplome",
-                type: "بكالوريوس",
-                src: "المعهد العالي للموسيقى، دمشق",
-                title: "أداء موسيقي",
-                date: "2015",
-                description: "بكالوريوس في الآداب بأداء موسيقي، تخصص كمان",
-                linkPath: "files/bachelor-diploma.jpg",
-                havePopup: false,
-                popup: null,
-              },
-              {
-                box: "diplome",
-                type: "دبلوم",
-                src: "الأكاديمية الملكية للموسيقى",
-                title: "دراسات كمان متقدمة",
-                date: "2019",
-                description: "دبلوم متقدم في أداء الكمان وطرق التدريس",
-                linkPath: "files/royal-academy.jpg",
-                havePopup: false,
-                popup: null,
-              },
-            ],
-          },
-          {
-            title: "السيرة الأدائية",
-            data: [
-              {
-                box: "recommendation",
-                type: "عازفة منفردة",
-                src: "مهرجان بيروت الدولي",
-                title: "عازفة مميزة",
-                date: "2021-2024",
-                description: `عازفة منفردة مميزة سنوياً في أهم مهرجان موسيقي في لبنان، تؤدي أمام جماهير تزيد عن 3000 شخص`,
-                linkPath: "https://beirutfestival.org",
-                havePopup: false,
-                popup: {},
-              },
-              {
-                box: "recommendation",
-                type: "أوركسترالية",
-                src: "الأوركسترا السمفونية اللبنانية",
-                title: "كمان أول",
-                date: "2018-2023",
-                description: `عضو في قسم الكمان الأول في الأوركسترا السمفونية الوطنية، تؤدي الريبورتوار الكلاسيكي والأعمال المعاصرة`,
-                linkPath: "https://lns-orchestra.lb",
-                havePopup: false,
-                popup: {},
-              },
-              {
-                box: "recommendation",
-                type: "تدريس",
-                src: "المعهد الوطني اللبناني",
-                title: "أستاذة كمان",
-                date: "2019-حتى الآن",
-                description: `أستاذة دراسات الكمان، تدرّس طلاب البكالوريوس والدراسات العليا في الأداء وطرق التدريس`,
-                linkPath: "https://conservatory.gov.lb",
-                havePopup: false,
-                popup: {},
-              },
-            ],
-          },
-        ],
-        contact: [
-          {
-            id: 1,
-            data: [
-              ["البلد:", "لبنان", "l"],
-              ["المدينة:", "بيروت", "l"],
-              ["الاستوديو:", "حي الموسيقى، شارع الحمراء", "l"],
-            ],
-          },
-          {
-            id: 2,
-            data: [
-              ["البريد الإلكتروني:", "me@berna-violin.art", "e"],
-              ["الواتساب:", "+96181311749", "w"],
-              ["الاستوديو:", "+96113876543", "p"],
-            ],
-          },
-        ],
-      },
-      Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
-      Copyright: ["https://wa.me/+96181311749", "بيرنا ديوب"],
-      Menu: ["الرئيسية", "المعرض", "السيرة", "اتصل بي"],
-      Language: [
-        ["EN", false, "en"],
-        ["ع", true, "ar"],
-        ["FR", false, "fr"],
-      ],
-      Preloader: {
-        id: "preloader",
+      JobTitle: "Violinist"
+    }
+  };
+  var portfolio_ar = {
+    Data: {
+      Top: {
+        Avatar: "img/face-1.png",
         Name: "بيرنا ديوب",
-        JobTitle: "عازفة كمان محترفة",
+        Post: "عازفة كمان"
       },
+      Scroll: {
+        About: [
+          ["البلد", "لبنان"],
+          ["المدينة", "بيروت"]
+        ],
+        Languages: [
+          { Id: "circleprog1", Type: "Circle", Name: "العربية", Progress: "p100" },
+          { Id: "circleprog2", Type: "Circle", Name: "الإنجليزية", Progress: "p80" },
+          { Id: "circleprog3", Type: "Circle", Name: "الفرنسية", Progress: "p100" }
+        ],
+        Skills: [
+          {
+            Title: "تقنيات الكمان :",
+            items: [
+              { id: "lineprog1", Type: "line", Name: "الكمان الكلاسيكي", Progress: 100 },
+              { id: "lineprog2", Type: "line", Name: "كمان الجاز", Progress: 90 },
+              { id: "lineprog3", Type: "line", Name: "الارتجال", Progress: 95 },
+              { id: "lineprog4", Type: "line", Name: "القراءة البصرية", Progress: 100 },
+              { id: "lineprog5", Type: "line", Name: "النظرية الموسيقية", Progress: 100 }
+            ]
+          },
+          {
+            Title: "مهارات التدريس :",
+            items: [
+              { id: "lineprog10", Type: "line", Name: "طرق تدريس الكمان", Progress: 95 },
+              { id: "lineprog11", Type: "line", Name: "صفوف الماستركلاس", Progress: 90 },
+              { id: "lineprog12", Type: "line", Name: "الدروس عبر الإنترنت", Progress: 100 }
+            ]
+          }
+        ],
+        Knowledges: [
+          "معرفة واسعة بالريبورتوار",
+          "تأليف وتوزيع الموسيقى",
+          "الحضور المسرحي والأداء",
+          "خبرة في استوديوهات التسجيل",
+          "التعاون مع الموسيقيين الآخرين",
+          "المشاركة في المهرجانات الموسيقية",
+          "الدمج الموسيقي بين الثقافات",
+          "تقنيات جذب الجمهور",
+          "الإخراج الموسيقي",
+          "أساسيات هندسة الصوت",
+          "صيانة الآلات الموسيقية",
+          "إدارة الأعمال الموسيقية",
+          "تخطيط وإنتاج الحفلات",
+          "منهجيات التعليم الموسيقي",
+          "المنصات الموسيقية الرقمية",
+          "حقوق الطبع والتراخيص الموسيقية"
+        ],
+        CV: "files/bernadayoub-cv.pdf"
+      },
+      Bottom: {
+        tiktok: [
+          "https://www.tiktok.com/@berna_dayoub",
+          "<i class=\"fa-brands fa-tiktok\"></i>"
+        ],
+        Whatsapp: [
+          "https://wa.me/+96181139596",
+          "<i class=\"fa-brands fa-whatsapp\"></i>"
+        ],
+        Facebook: [
+          "https://www.facebook.com/bernadayoub.violin",
+          "<i class=\"fa-brands fa-facebook\"></i>"
+        ],
+        Instagram: [
+          "https://www.instagram.com/bernadayoub.violin",
+          "<i class=\"fa-brands fa-instagram\"></i>"
+        ],
+        Youtube: [
+          "https://www.youtube.com/bernadayoub",
+          "<i class=\"fa-brands fa-youtube\"></i>"
+        ]
+      }
     },
-    portfolio_fr = {
-      Data: {
-        Top: {
-          Avatar: "img/face-1.png",
-          Name: "Berna Dayoub",
-          Post: `Violoniste Professionnelle`,
+    Content: {
+      home: {
+        banner: {
+          title: "أنضم إلى <br />عالم الموسيقى!",
+          startStaticPhrae: "<i>♫</i> أعزف",
+          slidePhrases: "[\"أنغاماً تمسّ الروح.\", \"سيمفونيات كلاسيكية.\", \"إيقاعات عربية.\", \"موسيقى معاصرة.\", \"موسيقى تلامس القلب.\"]",
+          endStaticPhrae: "</i>♫</i>",
+          btnText: "استمع الآن",
+          btnLink: "",
+          linkText: "احجز أداءً",
+          linkUrl: "https://calendly.com/bernadayoub",
+          bgImgPath: "img/bg.jpg",
+          imgPath: "img/bg.jpg"
         },
-        Scroll: {
-          About: [
-            ["Âge", currentYear - 1996],
-            ["Résidence", "Liban"],
-            ["Ville", "Beyrouth"],
-          ],
-          Languages: [
-            {
-              Id: "circleprog1",
-              Type: "Circle",
-              Name: "Arabe",
-              Progress: "p100",
-            },
-            {
-              Id: "circleprog2",
-              Type: "Circle",
-              Name: "Anglais",
-              Progress: "p95",
-            },
-            {
-              Id: "circleprog3",
-              Type: "Circle",
-              Name: "Français",
-              Progress: "p90",
-            },
-          ],
-          Skills: [
-            // Techniques de Violon :
-            {
-              Title: "Techniques de Violon :",
-              items: [
-                { id: "lineprog1", Type: "line", Name: "Violon Classique", Progress: "100" },
-                { id: "lineprog2", Type: "line", Name: "Violon Jazz", Progress: "90" },
-                { id: "lineprog3", Type: "line", Name: "Improvisation", Progress: "95" },
-                { id: "lineprog4", Type: "line", Name: "Lecture à Vue", Progress: "100" },
-                { id: "lineprog5", Type: "line", Name: "Théorie Musicale", Progress: "100" },
-              ],
-            },
-            // Styles de Performance :
-            {
-              Title: "Styles de Performance :",
-              items: [
-                { id: "lineprog6", Type: "line", Name: "Performance Solo", Progress: "100" },
-                { id: "lineprog7", Type: "line", Name: "Jeu Orchestral", Progress: "95" },
-                { id: "lineprog8", Type: "line", Name: "Musique de Chambre", Progress: "90" },
-                { id: "lineprog9", Type: "line", Name: "Musique Contemporaine", Progress: "85" },
-              ],
-            },
-            // Compétences Pédagogiques :
-            {
-              Title: "Compétences Pédagogiques :",
-              items: [
-                { id: "lineprog10", Type: "line", Name: "Pédagogie du Violon", Progress: "95" },
-                { id: "lineprog11", Type: "line", Name: "Classes de Maître", Progress: "90" },
-                { id: "lineprog12", Type: "line", Name: "Cours en Ligne", Progress: "85" },
-              ],
-            },
-          ],
-          Knowledges: [
-            "Connaissance extensive du répertoire",
-            "Composition et arrangement musical",
-            "Présence scénique et performance",
-            "Expérience en studio d'enregistrement",
-            "Collaboration avec d'autres musiciens",
-            "Participation à des festivals de musique",
-            "Fusion musicale interculturelle",
-            "Techniques d'engagement du public",
-            "Direction musicale",
-            "Bases du génie sonore",
-            "Entretien des instruments",
-            "Gestion des affaires musicales",
-            "Planification et production de concerts",
-            "Méthodologies d'éducation musicale",
-            "Plateformes musicales numériques",
-            "Droit d'auteur et licences musicales",
-          ],
-          CV: "files/bernadayoub-cv.pdf",
-        },
-        Bottom: {
-          tiktok: [
-            "https://www.tiktok.com/@berna_dayoub",
-            `<i class="fa-brands fa-tiktok"></i>`,
-          ],
-          Whatsapp: [
-            "https://wa.me/+96181311749",
-            `<i class="fa-brands fa-whatsapp"></i>`,
-          ],
-          Facebook: [
-            "https://www.facebook.com/bernadayoub.violin",
-            `<i class="fa-brands fa-facebook"></i>`,
-          ],
-          Instagram: [
-            "https://www.instagram.com/bernadayoub.violin",
-            `<i class="fa-brands fa-instagram"></i>`,
-          ],
-          Youtube: [
-            "https://www.youtube.com/bernadayoub",
-            `<i class="fa-brands fa-youtube"></i>`,
-          ],
-        },
-      },
-      Content: {
-        home: {
-          banner: {
-            title: "Découvrez mon Monde <br />Musical Magique!",
-            startStaticPhrae: "&lt;<i>♫</i>&gt; Je joue",
-            slidePhrases: `["des mélodies émouvantes.", "des symphonies classiques.", "des rythmes arabes.", "des fusions contemporaines.", "de la musique qui touche le cœur."]`,
-            endStaticPhrae: "&lt;/<i>♫</i>&gt;",
-            btnText: "Écouter maintenant",
-            btnLink: "",
-            linkText: "Réserver une performance",
-            linkUrl: "https://calendly.com/bernadayoub",
-            bgImgPath: "img/bg.jpg",
-            imgPath: "img/bg.jpg",
-          },
-          counters: [
-            ["Années de Performance", currentYear - 2014],
-            ["Concerts Joués", 120],
-            ["Étudiants Formés", 65],
-            ["Prix Remportés", 8],
-          ],
-          services: [
-            {
-              title: "Performances Live",
-              description: `Vivez la magie de la musique de violon live pour vos événements, mariages, fonctions corporatives et occasions spéciales. J'apporte émotion et élégance à chaque performance.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "Enregistrement Musical",
-              description: `Services professionnels d'enregistrement de violon pour albums, bandes originales de films, publicités et projets musicaux avec équipement de studio de haute qualité.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "Cours de Violon",
-              description: `Instruction de violon personnalisée pour tous les niveaux, des débutants aux joueurs avancés, axée sur la technique, la musicalité et l'expression personnelle.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "Composition Musicale",
-              description: `Services de composition et d'arrangement musical personnalisés pour vos projets, mélangeant formation classique et influences contemporaines.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "Travail Orchestral",
-              description: `Performance professionnelle de violon orchestral avec expérience dans les orchestres symphoniques, ensembles de chambre et productions de théâtre musical.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-            {
-              title: "Ateliers & Masterclasses",
-              description: `Ateliers éducatifs et masterclasses pour les écoles de musique, universités et institutions culturelles axés sur la technique du violon et l'interprétation musicale.`,
-              linkUrl: "https://wa.me/+96181311749",
-            },
-          ],
-          prices: [
-            {
-              title: "La Corde du Début",
-              price: `<span>$</span>20<span> / cours</span>`,
-              isPopular: false,
-              conditions: [
-                ["Introduction aux bases du violon", false],
-                ["Découverte de l’instrument et posture correcte", false],
-                ["Gammes et exercices simples", false],
-                ["Compréhension du rythme musical", false],
-                ["Lecture de partitions pour débutants", false],
-                ["Conseils pour une pratique efficace", false],
-                ["Accès à vie aux vidéos pédagogiques", false],
-                ["Certificat de réussite", true],
-                ["Évaluation par Berna", true],
-                ["Exercices d’échauffement bonus", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "La première étape de votre voyage musical",
-            },
-            {
-              title: "Les Tons de la Fondation",
-              price: `<span>$</span>30<span> / cours</span>`,
-              isPopular: true,
-              conditions: [
-                ["Techniques d’archet intermédiaires", false],
-                ["Amélioration du placement des doigts", false],
-                ["Introduction au vibrato", false],
-                ["Interprétation de pièces simples", false],
-                ["Fichiers PDF pour la pratique à domicile", false],
-                ["Exercices rythmiques de niveau moyen", false],
-                ["Jeux en duo ou en groupe", false],
-                ["Certificat de réussite", true],
-                ["Mises à jour continues", true],
-                ["Contact direct par e-mail avec Berna", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "L’étape où votre son commence à prendre forme",
-            },
-            {
-              title: "Le Rythme du Progrès",
-              price: `<span>$</span>40<span> / cours</span>`,
-              isPopular: false,
-              conditions: [
-                ["Maîtrise avancée du rythme et de la dynamique", false],
-                ["Interprétation de pièces complexes", false],
-                ["Élargissement de la gamme expressive", false],
-                ["Analyse musicale approfondie", false],
-                ["Techniques de performance professionnelle", false],
-                ["Conseils d’enregistrement et de partage", false],
-                ["Accès à des vidéos bonus", false],
-                ["Certificat de réussite", true],
-                ["Support prioritaire", true],
-                ["Accès aux masterclasses", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "Pour ceux qui visent le niveau professionnel",
-            },
-            {
-              title: "La Voix de l’Expression",
-              price: `<span>$</span>50<span> / cours</span>`,
-              isPopular: false,
-              conditions: [
-                ["Contrôle émotionnel dans l’interprétation", false],
-                ["Création d’une identité musicale unique", false],
-                ["Techniques de scène et d’improvisation", false],
-                ["Préparation aux concours et concerts", false],
-                ["Développement artistique personnel", false],
-                ["Analyse musicale avancée", false],
-                ["Approfondissement stylistique", false],
-                ["Certificat d’excellence", true],
-                ["Session individuelle d’évaluation", true],
-                ["Orientation artistique personnalisée", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "Exprimez votre âme à travers le violon",
-            },
-            {
-              title: "Le Théâtre du Violon",
-              price: `<span>$</span>60<span> / cours</span>`,
-              isPopular: false,
-              conditions: [
-                ["Accès complet à tous les niveaux", false],
-                ["Cours exclusifs et contenu en coulisses", false],
-                ["Séances privées en direct avec Berna", false],
-                ["Évaluation professionnelle des performances", false],
-                ["Opportunités de collaboration musicale", false],
-                ["Mises à jour régulières du contenu", false],
-                ["Plan de développement personnalisé", false],
-                ["Certificat de maîtrise", true],
-                ["Mentorat continu", true],
-                ["Suivi à vie", true],
-              ],
-              linkUrl: "https://wa.me/+96181311749",
-              note: "L’expérience complète pour devenir un(e) violoniste accompli(e)",
-            },
-          ],
-          recommendations: [
-            {
-              imgPath: "img/testimonials/director.jpg",
-              name: "Leila Khoury",
-              description: "Directrice d'Événements - Festival International de Beyrouth",
-              text: `Les performances de Berna sont simplement envoûtantes. Sa capacité à mélanger la technique classique avec les rythmes arabes crée une expérience musicale unique qui captive les audiences. Elle a été un point fort de notre festival pendant trois années consécutives.`,
-              stars: 5,
-            },
-            {
-              imgPath: "img/testimonials/student.jpg",
-              name: "Yara Chamoun",
-              description: "Étudiante en Musique",
-              text: `Étudier le violon avec Berna a transformé ma compréhension de la musique. Ses méthodes d'enseignement sont innovantes tout en étant ancrées dans une technique solide. Elle inspire ses étudiants à trouver leur propre voix musicale tout en maintenant l'excellence technique.`,
-              stars: 5,
-            },
-            {
-              imgPath: "img/testimonials/producer.jpg",
-              name: "Samir Fares",
-              description: "Producteur de Musique",
-              text: `Travailler avec Berna en studio est le rêve d'un producteur. Sa précision, sa musicalité et son professionnalisme rendent chaque session productive et inspirante. Elle apporte profondeur et émotion à chaque note qu'elle joue.`,
-              stars: 5,
-            },
-          ],
-        },
-        gallery: {
-          filter_nav: [
-            ["*", "Toutes les Performances"],
-            [".live", "Concerts Live"],
-            [".studio", "Enregistrements Studio"],
-            [".teaching", "Enseignement"],
-          ],
-          filter_list: [
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-1.png",
-              title: "Experience",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-2.png",
-              title: "Memories",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-            {
-              type: "studio",
-              imgPath: "img/gallery/studio-3.png",
-              title: "",
-              description: "",
-              templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
-              hBG: [true, "#000"],
-            },
-          ],
-        },
-        history: [
-          {
-            title: "Éducation",
-            data: [
-              {
-                box: "diplome",
-                type: "Master",
-                src: "Conservatoire National Libanais",
-                title: "Performance de Violon",
-                date: "2018",
-                description: "Master de Musique en Performance de Violon avec mention",
-                linkPath: "files/conservatory-diploma.jpg",
-                havePopup: false,
-                popup: null,
-              },
-              {
-                box: "diplome",
-                type: "Licence",
-                src: "Institut Supérieur de Musique, Damas",
-                title: "Performance Musicale",
-                date: "2015",
-                description: "Licence en Arts en Performance Musicale, Majeure en Violon",
-                linkPath: "files/bachelor-diploma.jpg",
-                havePopup: false,
-                popup: null,
-              },
-            ],
-          },
-          {
-            title: "Histoire des Performances",
-            data: [
-              {
-                box: "recommendation",
-                type: "Soliste",
-                src: "Festival International de Beyrouth",
-                title: "Artiste Invitée",
-                date: "2021-2024",
-                description: `Soliste invitée annuelle au principal festival de musique du Liban, performant devant des audiences de 3 000+ personnes`,
-                linkPath: "https://beirutfestival.org",
-                havePopup: false,
-                popup: {},
-              },
-            ],
-          },
+        counters: [
+          ["سنوات العزف", 10],
+          ["الحفلات الموسيقية", 120],
+          ["الطلاب المُدرَّبين", 65]
         ],
-        contact: [
+        services: [
           {
-            id: 1,
-            data: [
-              ["Pays:", "Liban", "l"],
-              ["Ville:", "Beyrouth", "l"],
-              ["Studio:", "Quartier Musical, Rue Hamra", "l"],
-            ],
+            title: "التسجيلات الموسيقية",
+            description: "خدمات تسجيل كمان احترافية للألبومات وموسيقى الأفلام والإعلانات والمشاريع الموسيقية بمعدات استوديو عالية الجودة.",
+            linkUrl: "https://wa.me/+96181139596"
           },
           {
-            id: 2,
-            data: [
-              ["Email:", "me@berna-violin.art", "e"],
-              ["Whatsapp:", "+96181311749", "w"],
-              ["Studio:", "+96113876543", "p"],
-            ],
+            title: "دروس الكمان",
+            description: "تعليم كمان مخصص لجميع المستويات الاكاديمية، من المبتدئين إلى المتقدمين، يركز على التقنية والموسيقية والتعبير الشخصي.",
+            linkUrl: "https://wa.me/+96181139596"
           },
+          {
+            title: "التأليف الموسيقي",
+            description: "خدمات تأليف وتوزيع موسيقي مخصصة لمشاريعك، تمزج بين التدريب الكلاسيكي والتأثيرات المعاصرة.",
+            linkUrl: "https://wa.me/+96181139596"
+          },
+          {
+            title: "ورش العمل والماستركلاس",
+            description: "ورش عمل تعليمية وصفوف ماستركلاس لمدارس الموسيقى والجامعات والمؤسسات الثقافية تركز على تقنية الكمان والتفسير الموسيقي.",
+            linkUrl: "https://wa.me/+96181139596"
+          }
+        ],
+        prices: [
+          {
+            title: "وتر البداية",
+            price: "<span>$</span>25<span> / دورة</span>",
+            isPopular: false,
+            conditions: [
+              ["مقدمة في أساسيات العزف على الكمان", false],
+              ["تعليم 3 اصابع على جميع الاوتار", false],
+              ["التعرف على أجزاء الآلة ووضعية العزف الصحيحة", false],
+              ["تمارين السلالم البسيطة", false],
+              ["الإيقاع والعدّ الموسيقي", false],
+              ["قراءة النوتة الموسيقية للمبتدئين", false],
+              ["نصائح لبناء روتين تدريب فعّال", false],
+              ["وصول دائم للفيديوهات التعليمية", false],
+              ["شهادة إتمام الدورة", false],
+              ["تقييم من بيرنا", false],
+              ["تمارين إضافية للإحماء", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "الخطوة الأولى في رحلتك الموسيقية"
+          },
+          {
+            title: "أنغام التأسيس",
+            price: "<span>$</span>35<span> / دورة</span>",
+            isPopular: false,
+            conditions: [
+              ["تقنيات متوسطة في التحكم بالقوس", false],
+              ["تحسين وضع الأصابع على الأوتار", false],
+              ["البدء بتطبيق الاهتزاز (Vibrato)", false],
+              ["عزف مقطوعات بسيطة بإحساس موسيقي", false],
+              ["تعليم الاصبع ال 4 لجميع الاوتار", false],
+              ["تمارين إيقاع متوسطة الصعوبة", false],
+              ["تطبيقات للعزف الجماعي", false],
+              ["شهادة إتمام الدورة", false],
+              ["تحديثات مستمرة للدروس", false],
+              ["تواصل مباشر عبر البريد مع بيرنا", false],
+              ["الجزء الثاني من الاصبع الثاني", false],
+              ["أغنية Ezel", false],
+              ["GAME OF THRONES", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "المرحلة التي تبني فيها صوتك الموسيقي الحقيقي"
+          },
+          {
+            title: "إيقاع التقدم",
+            price: "<span>$</span>45<span> / دورة</span>",
+            isPopular: false,
+            conditions: [
+              ["تطوير التحكم في الإيقاع والديناميكية", false],
+              ["عزف مقطوعات من المستوى المتقدم", false],
+              ["توسيع المدى الصوتي والتعبيري", false],
+              ["تحليل الجمل الموسيقية المعقدة", false],
+              ["تطبيق تقنيات الأداء الاحترافي", false],
+              ["نصائح تسجيل ومشاركة الأداء", false],
+              ["صفوف فيديو إضافية", false],
+              ["العزف مع موسيقى", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "لمن يرغب بالانتقال إلى المستوى الاحترافي"
+          },
+          {
+            title: "صوت التعبير",
+            price: "<span>$</span>50<span> / دورة</span>",
+            isPopular: false,
+            conditions: [
+              ["اغاني جديدة", false],
+              ["تكنيكات جديدة للقوس", false],
+              ["تطوير الارتجال الموسيقي", false],
+              ["تصميم أسلوب شخصي في العزف", false],
+              ["EXPIRIENCE", false],
+              ["INTERSTELLER", false],
+              ["توجيه مهني لتطوير المسار الفني", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "رحلة التعبير الحقيقي من خلال الموسيقى"
+          },
+          {
+            title: "مسرح الكمان",
+            price: "<span>$</span>70<span> / دورة</span>",
+            isPopular: false,
+            conditions: [
+              ["وصول شامل إلى مستوى متقدم اكاديمي", false],
+              ["العزف مع نوتة أحترافية", false],
+              ["GAME AND ARPEGE ", false],
+              ["2DE POSITION ", false],
+              ["3DE POSITION", false],
+              ["CONCERT", false],
+              ["تحديثات مستمرة للدروس", false],
+              ["خطة تطوير شخصية طويلة المدى", false],
+              ["CONCERT VIVALDI", false],
+              ["شرح دوزان الكمان", false],
+              ["تركيب الكمان", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "الرحلة الكاملة لعازف الكمان نحو المسرح والاحتراف"
+          }
         ],
       },
-      Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
-      Copyright: ["https://wa.me/+96181311749", "Berna Dayoub"],
-      Menu: ["Accueil", "Galerie", "Carrière", "Contact"],
-      Language: [
-        ["EN", false, "en"],
-        ["AR", false, "ar"],
-        ["FR", true, "fr"],
+      gallery: {
+        filter_nav: [
+          ["*", "جميع العروض"],
+          [".live", "حفلات حية"],
+          [".studio", "تسجيلات استوديو"],
+          [".teaching", "التدريس"]
+        ],
+        filter_list: [
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-1.png",
+            title: "Experience",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066",
+            hBG: [true, "#000"]
+          },
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-2.png",
+            title: "Memories",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895",
+            hBG: [true, "#000"]
+          },
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-3.png",
+            title: "",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040",
+            hBG: [true, "#000"]
+          }
+        ]
+      },
+      history: [
+        {
+          title: "التعليم",
+          data: [
+            {
+              box: "diplome",
+              type: "ماجستير",
+              src: "المعهد الوطني العالي كونسيرتوار",
+              title: "أداء الكمان",
+              date: "2010-2020",
+              description: "",
+              linkPath: "files/conservatory-diploma.jpg",
+              havePopup: false
+            },
+            {
+              box: "diplome",
+              type: "بكالوريوس",
+              src: "بكا",
+              title: "أداء موسيقي",
+              date: "2015",
+              description: "بكالوريوس في الآداب بأداء موسيقي، تخصص كمان",
+              linkPath: "files/bachelor-diploma.jpg",
+              havePopup: false
+            },
+            {
+              box: "diplome",
+              type: "دبلوم",
+              src: "الأكاديمية الملكية للموسيقى",
+              title: "دراسات كمان متقدمة",
+              date: "2019",
+              description: "دبلوم متقدم في أداء الكمان وطرق التدريس",
+              linkPath: "files/royal-academy.jpg",
+              havePopup: false
+            }
+          ]
+        },
+        {
+          title: "السيرة الأدائية",
+          data: [
+            {
+              box: "recommendation",
+              type: "عازفة منفردة",
+              src: "LIVE VENUE",
+              title: "عازفة منفردة",
+              date: "2023-2024",
+              description: "",
+              linkPath: "https://beirutfestival.org",
+              havePopup: false
+            },
+            {
+              box: "recommendation",
+              type: "أوركسترالية",
+              src: "الأوركسترا اللبنانية للمعهد العالي للموسيقى كونسرفيتوا",
+              title: "كمان أول",
+              date: "2019-2022",
+              description: "",
+              linkPath: "https://lns-orchestra.lb",
+              havePopup: false
+            },
+            {
+              box: "recommendation",
+              type: "تدريس",
+              src: "المعهد الوطني اللبناني",
+              title: "أستاذة كمان",
+              date: "2019-حتى الآن",
+              description: "أستاذة دراسات الكمان، تدرّس طلاب البكالوريوس والدراسات العليا في الأداء وطرق التدريس",
+              linkPath: "https://conservatory.gov.lb",
+              havePopup: false
+            }
+          ]
+        }
       ],
-      Preloader: {
-        id: "preloader",
+      contact: [
+        {
+          id: 1,
+          data: [
+            ["البلد:", "لبنان", "l"],
+            ["المدينة:", "بيروت", "l"],
+            ["الاستوديو:", "حي الموسيقى، شارع الحمراء", "l"]
+          ]
+        },
+        {
+          id: 2,
+          data: [
+            ["البريد الإلكتروني:", "me@berna-violin.art", "e"],
+            ["الواتساب:", "+96181139596", "w"],
+            ["الهاتف:", "+96113876543", "p"]
+          ]
+        }
+      ]
+    },
+    Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
+    Copyright: ["https://wa.me/+96181139596", "بيرنا ديوب"],
+    Menu: ["الرئيسية", "المعرض", "السيرة", "اتصل بي"],
+    Language: [
+      ["EN", false, "en"],
+      ["ع", true, "ar"],
+      ["FR", false, "fr"]
+    ],
+    Preloader: {
+      id: "preloader",
+      Name: "بيرنا ديوب",
+      JobTitle: "عازفة كمان"
+    }
+  };
+  var portfolio_fr = {
+    Data: {
+      Top: {
+        Avatar: "img/face-1.png",
         Name: "Berna Dayoub",
-        JobTitle: "Violoniste Professionnelle",
+        Post: "Violoniste"
       },
-    };
+      Scroll: {
+        About: [
+          ["Pays", "Liban"],
+          ["Ville", "Beyrouth"]
+        ],
+        Languages: [
+          { Id: "circleprog1", Type: "Circle", Name: "Arabe", Progress: "p100" },
+          { Id: "circleprog2", Type: "Circle", Name: "Anglais", Progress: "p80" },
+          { Id: "circleprog3", Type: "Circle", Name: "Français", Progress: "p100" }
+        ],
+        Skills: [
+          {
+            Title: "Techniques de violon :",
+            items: [
+              { id: "lineprog1", Type: "line", Name: "Violon classique", Progress: 100 },
+              { id: "lineprog2", Type: "line", Name: "Violon jazz", Progress: 90 },
+              { id: "lineprog3", Type: "line", Name: "Improvisation", Progress: 95 },
+              { id: "lineprog4", Type: "line", Name: "Lecture à vue", Progress: 100 },
+              { id: "lineprog5", Type: "line", Name: "Théorie musicale", Progress: 100 }
+            ]
+          },
+          {
+            Title: "Compétences pédagogiques :",
+            items: [
+              { id: "lineprog10", Type: "line", Name: "Pédagogie du violon", Progress: 95 },
+              { id: "lineprog11", Type: "line", Name: "Master classes", Progress: 90 },
+              { id: "lineprog12", Type: "line", Name: "Cours en ligne", Progress: 100 }
+            ]
+          }
+        ],
+        Knowledges: [
+          "Connaissance approfondie du répertoire",
+          "Composition et arrangement musical",
+          "Présence scénique et interprétation",
+          "Expérience en studio d'enregistrement",
+          "Collaboration avec d'autres musiciens",
+          "Participation à des festivals de musique",
+          "Fusion musicale interculturelle",
+          "Techniques de captation du public",
+          "Direction musicale",
+          "Bases de l'ingénierie sonore",
+          "Entretien des instruments",
+          "Gestion des affaires musicales",
+          "Planification et production de concerts",
+          "Méthodologies d'éducation musicale",
+          "Plateformes musicales numériques",
+          "Droit d'auteur et licences musicales"
+        ],
+        CV: "files/bernadayoub-cv.pdf"
+      },
+      Bottom: {
+        tiktok: [
+          "https://www.tiktok.com/@berna_dayoub",
+          "<i class=\"fa-brands fa-tiktok\"></i>"
+        ],
+        Whatsapp: [
+          "https://wa.me/+96181139596",
+          "<i class=\"fa-brands fa-whatsapp\"></i>"
+        ],
+        Facebook: [
+          "https://www.facebook.com/bernadayoub.violin",
+          "<i class=\"fa-brands fa-facebook\"></i>"
+        ],
+        Instagram: [
+          "https://www.instagram.com/bernadayoub.violin",
+          "<i class=\"fa-brands fa-instagram\"></i>"
+        ],
+        Youtube: [
+          "https://www.youtube.com/bernadayoub",
+          "<i class=\"fa-brands fa-youtube\"></i>"
+        ]
+      }
+    },
+    Content: {
+      home: {
+        banner: {
+          title: "Rejoins le <br />monde de la musique !",
+          startStaticPhrae: "<i>♫</i> Je joue",
+          slidePhrases: "[\"des mélodies pleines d'âme.\", \"des symphonies classiques.\", \"des rythmes arabes.\", \"de la musique contemporaine.\", \"une musique qui touche le cœur.\"]",
+          endStaticPhrae: "</i>♫</i>",
+          btnText: "Écouter maintenant",
+          btnLink: "",
+          linkText: "Réserver une prestation",
+          linkUrl: "https://calendly.com/bernadayoub",
+          bgImgPath: "img/bg.jpg",
+          imgPath: "img/bg.jpg"
+        },
+        counters: [
+          ["Années de pratique", 10],
+          ["Concerts", 120],
+          ["Élèves formés", 65]
+        ],
+        services: [
+          {
+            title: "Enregistrement musical",
+            description: "Services professionnels d'enregistrement de violon pour albums, musiques de films, publicités et projets musicaux avec un équipement de studio de haute qualité.",
+            linkUrl: "https://wa.me/+96181139596"
+          },
+          {
+            title: "Cours de violon",
+            description: "Cours de violon personnalisés pour tous les niveaux académiques, des débutants aux joueurs avancés, axés sur la technique, la musicalité et l'expression personnelle.",
+            linkUrl: "https://wa.me/+96181139596"
+          },
+          {
+            title: "Composition musicale",
+            description: "Services de composition et d'arrangement musical sur mesure pour vos projets, alliant formation classique et influences contemporaines.",
+            linkUrl: "https://wa.me/+96181139596"
+          },
+          {
+            title: "Ateliers et master classes",
+            description: "Ateliers éducatifs et master classes pour les écoles de musique, universités et institutions culturelles, axés sur la technique du violon et l'interprétation musicale.",
+            linkUrl: "https://wa.me/+96181139596"
+          }
+        ],
+        prices: [
+          {
+            title: "Corde des débuts",
+            price: "<span>$</span>25<span> / cours</span>",
+            isPopular: false,
+            conditions: [
+              ["Introduction aux bases du violon", false],
+              ["Apprentissage des 3 doigts sur toutes les cordes", false],
+              ["Connaissance des parties de l'instrument et posture correcte", false],
+              ["Exercices de gammes simples", false],
+              ["Rythme et comptage musical", false],
+              ["Lecture de partition pour débutants", false],
+              ["Conseils pour une routine de pratique efficace", false],
+              ["Accès à vie aux vidéos pédagogiques", false],
+              ["Certificat de fin de cours", false],
+              ["Évaluation par Berna", false],
+              ["Exercices d'échauffement bonus", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "Le premier pas dans ton voyage musical"
+          },
+          {
+            title: "Sons de la fondation",
+            price: "<span>$</span>35<span> / cours</span>",
+            isPopular: false,
+            conditions: [
+              ["Techniques d'archet intermédiaires", false],
+              ["Amélioration du placement des doigts sur les cordes", false],
+              ["Introduction au vibrato", false],
+              ["Interprétation de pièces simples avec expressivité", false],
+              ["Apprentissage du 4ème doigt sur toutes les cordes", false],
+              ["Exercices rythmiques de difficulté moyenne", false],
+              ["Applications de jeu en groupe", false],
+              ["Certificat de fin de cours", false],
+              ["Mises à jour continues des leçons", false],
+              ["Communication directe par e-mail avec Berna", false],
+              ["Deuxième partie du deuxième doigt", false],
+              ["Chanson Ezel", false],
+              ["GAME OF THRONES", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "L'étape où tu construis ta véritable voix musicale"
+          },
+          {
+            title: "Rythme du progrès",
+            price: "<span>$</span>45<span> / cours</span>",
+            isPopular: false,
+            conditions: [
+              ["Développement du contrôle du rythme et de la dynamique", false],
+              ["Interprétation de pièces de niveau avancé", false],
+              ["Élargissement de la palette sonore et expressive", false],
+              ["Analyse de phrases musicales complexes", false],
+              ["Application de techniques de jeu professionnelles", false],
+              ["Conseils d'enregistrement et de partage", false],
+              ["Cours vidéo supplémentaires", false],
+              ["Jouer avec un accompagnement musical", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "Pour ceux qui souhaitent passer au niveau professionnel"
+          },
+          {
+            title: "Voix de l'expression",
+            price: "<span>$</span>50<span> / cours</span>",
+            isPopular: false,
+            conditions: [
+              ["Nouvelles pièces au choix", false],
+              ["Nouvelles techniques d'archet", false],
+              ["Développement de l'improvisation musicale", false],
+              ["Création d'un style personnel", false],
+              ["EXPERIENCE", false],
+              ["INTERSTELLAR", false],
+              ["Orientation professionnelle pour le développement artistique", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "Le voyage de l'expression authentique à travers la musique"
+          },
+          {
+            title: "La scène du violon",
+            price: "<span>$</span>70<span> / cours</span>",
+            isPopular: false,
+            conditions: [
+              ["Accès complet au niveau académique avancé", false],
+              ["Jeu avec des partitions professionnelles", false],
+              ["GAMMES ET ARPÈGES", false],
+              ["2E POSITION", false],
+              ["3E POSITION", false],
+              ["CONCERT", false],
+              ["Mises à jour continues des leçons", false],
+              ["Plan de développement personnel à long terme", false],
+              ["CONCERT VIVALDI", false],
+              ["Explication de l'accordage du violon", false],
+              ["Montage et entretien du violon", false]
+            ],
+            linkUrl: "https://wa.me/+96181139596",
+            note: "Le parcours complet du violoniste vers la scène et le professionnalisme"
+          }
+        ]
+      },
+      gallery: {
+        filter_nav: [
+          ["*", "Toutes les prestations"],
+          [".live", "Concerts live"],
+          [".studio", "Enregistrements studio"],
+          [".teaching", "Enseignement"]
+        ],
+        filter_list: [
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-1.png",
+            title: "Experience",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066",
+            hBG: [true, "#000"]
+          },
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-2.png",
+            title: "Memories",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895",
+            hBG: [true, "#000"]
+          },
+          {
+            type: "studio",
+            imgPath: "img/gallery/studio-3.png",
+            title: "",
+            description: "",
+            templateUrl: "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040",
+            hBG: [true, "#000"]
+          }
+        ]
+      },
+      history: [
+        {
+          title: "Formation",
+          data: [
+            {
+              box: "diplome",
+              type: "Master",
+              src: "Conservatoire national supérieur",
+              title: "Interprétation du violon",
+              date: "2010-2020",
+              description: "",
+              linkPath: "files/conservatory-diploma.jpg",
+              havePopup: false
+            },
+            {
+              box: "diplome",
+              type: "Licence",
+              src: "BCA",
+              title: "Interprétation musicale",
+              date: "2015",
+              description: "Licence d'interprétation musicale, spécialité violon",
+              linkPath: "files/bachelor-diploma.jpg",
+              havePopup: false
+            },
+            {
+              box: "diplome",
+              type: "Diplôme",
+              src: "Académie royale de musique",
+              title: "Études avancées de violon",
+              date: "2019",
+              description: "Diplôme avancé d'interprétation et de pédagogie du violon",
+              linkPath: "files/royal-academy.jpg",
+              havePopup: false
+            }
+          ]
+        },
+        {
+          title: "Parcours artistique",
+          data: [
+            {
+              box: "recommendation",
+              type: "Soliste",
+              src: "LIVE VENUE",
+              title: "Soliste",
+              date: "2023-2024",
+              description: "",
+              linkPath: "https://beirutfestival.org",
+              havePopup: false
+            },
+            {
+              box: "recommendation",
+              type: "Orchestre",
+              src: "Orchestre du Conservatoire national supérieur libanais",
+              title: "Premier violon",
+              date: "2019-2022",
+              description: "",
+              linkPath: "https://lns-orchestra.lb",
+              havePopup: false
+            },
+            {
+              box: "recommendation",
+              type: "Enseignement",
+              src: "Conservatoire national libanais",
+              title: "Professeur de violon",
+              date: "2019–aujourd'hui",
+              description: "Professeur de violon, encadrement d'étudiants en licence et master en interprétation et pédagogie",
+              linkPath: "https://conservatory.gov.lb",
+              havePopup: false
+            }
+          ]
+        }
+      ],
+      contact: [
+        {
+          id: 1,
+          data: [
+            ["Pays :", "Liban", "l"],
+            ["Ville :", "Beyrouth", "l"],
+            ["Studio :", "Quartier musical, rue Hamra", "l"]
+          ]
+        },
+        {
+          id: 2,
+          data: [
+            ["E‑mail :", "me@berna-violin.art", "e"],
+            ["WhatsApp :", "+96181139596", "w"],
+            ["Téléphone :", "+96113876543", "p"]
+          ]
+        }
+      ]
+    },
+    Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
+    Copyright: ["https://wa.me/+96181139596", "Berna Dayoub"],
+    Menu: ["Accueil", "Galerie", "Parcours", "Contact"],
+    Language: [
+      ["EN", false, "en"],
+      ["AR", false, "ar"],
+      ["FR", true, "fr"]
+    ],
+    Preloader: {
+      id: "preloader",
+      Name: "Berna Dayoub",
+      JobTitle: "Violoniste"
+    }
+  };
+
   //* Person Data :
   var portfolio;
   const portfolio_lang = localStorage.getItem("aq-apps-language");
@@ -1533,43 +1363,45 @@ $(function () {
                       />
                     </div>`;
   });
-  jQuery.each(portfolio.Content.home.recommendations, (index, item) => {
-    portfolio_content_home_recommendations.innerHTML += `
-    <div class="swiper-slide">
-      <div class="art-a art-testimonial">
-        <div class="testimonial-body">
-          <img
-            class="art-testimonial-face"
-            src="${item.imgPath}"
-            alt="face"
-          />
-          <h5>${item.name}</h5>
-          <div class="art-el-suptitle mb-15">
-          ${item.description}
+  if (portfolio.Content.home.recommendations) {
+    jQuery.each(portfolio.Content.home.recommendations, (index, item) => {
+      portfolio_content_home_recommendations.innerHTML += `
+      <div class="swiper-slide">
+        <div class="art-a art-testimonial">
+          <div class="testimonial-body">
+            <img
+              class="art-testimonial-face"
+              src="${item.imgPath}"
+              alt="face"
+            />
+            <h5>${item.name}</h5>
+            <div class="art-el-suptitle mb-15">
+            ${item.description}
+            </div>
+            <div class="mb-15">
+            ${item.text}
+            </div>
           </div>
-          <div class="mb-15">
-          ${item.text}
+          <div class="art-testimonial-footer">
+            <div class="art-left-side">
+              <ul class="rate-list art-star-rate"></ul>
+            </div>
+            <div class="art-right-side"></div>
           </div>
-        </div>
-        <div class="art-testimonial-footer">
-          <div class="art-left-side">
-            <ul class="rate-list art-star-rate"></ul>
-          </div>
-          <div class="art-right-side"></div>
         </div>
       </div>
-    </div>
-  `;
-    var rate_list = document.querySelectorAll(".rate-list");
-    for (var i = 0; i < item.stars; i++) {
-      rate_list[index].innerHTML += `<li><i class="fas fa-star"></i></li>`;
-    }
-    for (var i = 0; i < 5 - item.stars; i++) {
-      rate_list[
-        index
-      ].innerHTML += `<li class="art-empty-item"><i class="fas fa-star"></i></li>`;
-    }
-  });
+    `;
+      var rate_list = document.querySelectorAll(".rate-list");
+      for (var i = 0; i < item.stars; i++) {
+        rate_list[index].innerHTML += `<li><i class="fas fa-star"></i></li>`;
+      }
+      for (var i = 0; i < 5 - item.stars; i++) {
+        rate_list[
+          index
+        ].innerHTML += `<li class="art-empty-item"><i class="fas fa-star"></i></li>`;
+      }
+    });
+  }
   jQuery.each(portfolio.Content.gallery.filter_nav, (index, item) => {
     portfolio_content_gallery_filter_nav.innerHTML += `
     <a

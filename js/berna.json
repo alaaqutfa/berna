@@ -1,0 +1,483 @@
+{
+  "Data": {
+    "Top": {
+      "Avatar": "img/face-1.png",
+      "Name": "Berna Dayoub",
+      "Post": "Professional Violinist"
+    },
+    "Scroll": {
+      "About": [
+        ["Age", 29],
+        ["Residence", "Lebanon"],
+        ["City", "Beirut"]
+      ],
+      "Languages": [
+        {
+          "Id": "circleprog1",
+          "Type": "Circle",
+          "Name": "Arabic",
+          "Progress": "p100"
+        },
+        {
+          "Id": "circleprog2",
+          "Type": "Circle",
+          "Name": "English",
+          "Progress": "p95"
+        },
+        {
+          "Id": "circleprog3",
+          "Type": "Circle",
+          "Name": "French",
+          "Progress": "p90"
+        }
+      ],
+      "Skills": [
+        {
+          "Title": "Violin Techniques :",
+          "items": [
+            {
+              "id": "lineprog1",
+              "Type": "line",
+              "Name": "Classical Violin",
+              "Progress": "100"
+            },
+            {
+              "id": "lineprog2",
+              "Type": "line",
+              "Name": "Jazz Violin",
+              "Progress": "90"
+            },
+            {
+              "id": "lineprog3",
+              "Type": "line",
+              "Name": "Improvisation",
+              "Progress": "95"
+            },
+            {
+              "id": "lineprog4",
+              "Type": "line",
+              "Name": "Sight Reading",
+              "Progress": "100"
+            },
+            {
+              "id": "lineprog5",
+              "Type": "line",
+              "Name": "Music Theory",
+              "Progress": "100"
+            }
+          ]
+        },
+        {
+          "Title": "Performance Styles :",
+          "items": [
+            {
+              "id": "lineprog6",
+              "Type": "line",
+              "Name": "Solo Performance",
+              "Progress": "100"
+            },
+            {
+              "id": "lineprog7",
+              "Type": "line",
+              "Name": "Orchestral Playing",
+              "Progress": "95"
+            },
+            {
+              "id": "lineprog8",
+              "Type": "line",
+              "Name": "Chamber Music",
+              "Progress": "90"
+            },
+            {
+              "id": "lineprog9",
+              "Type": "line",
+              "Name": "Contemporary Music",
+              "Progress": "85"
+            }
+          ]
+        },
+        {
+          "Title": "Teaching Skills :",
+          "items": [
+            {
+              "id": "lineprog10",
+              "Type": "line",
+              "Name": "Violin Pedagogy",
+              "Progress": "95"
+            },
+            {
+              "id": "lineprog11",
+              "Type": "line",
+              "Name": "Master Classes",
+              "Progress": "90"
+            },
+            {
+              "id": "lineprog12",
+              "Type": "line",
+              "Name": "Online Lessons",
+              "Progress": "85"
+            }
+          ]
+        }
+      ],
+      "Knowledges": [
+        "Extensive repertoire knowledge",
+        "Music composition and arrangement",
+        "Stage presence and performance",
+        "Recording studio experience",
+        "Collaboration with other musicians",
+        "Music festival participation",
+        "Cross-cultural musical fusion",
+        "Audience engagement techniques",
+        "Music direction",
+        "Sound engineering basics",
+        "Instrument maintenance",
+        "Music business management",
+        "Concert planning and production",
+        "Music education methodologies",
+        "Digital music platforms",
+        "Music copyright and licensing"
+      ],
+      "CV": "files/bernadayoub-cv.pdf"
+    },
+    "Bottom": {
+      "tiktok": [
+        "https://www.tiktok.com/@berna_dayoub",
+        "<i class=\"fa-brands fa-tiktok\"></i>"
+      ],
+      "Whatsapp": [
+        "https://wa.me/+96181311749",
+        "<i class=\"fa-brands fa-whatsapp\"></i>"
+      ],
+      "Facebook": [
+        "https://www.facebook.com/bernadayoub.violin",
+        "<i class=\"fa-brands fa-facebook\"></i>"
+      ],
+      "Instagram": [
+        "https://www.instagram.com/bernadayoub.violin",
+        "<i class=\"fa-brands fa-instagram\"></i>"
+      ],
+      "Youtube": [
+        "https://www.youtube.com/bernadayoub",
+        "<i class=\"fa-brands fa-youtube\"></i>"
+      ]
+    }
+  },
+  "Content": {
+    "home": {
+      "banner": {
+        "title": "Discover my Magical <br />Musical World!",
+        "startStaticPhrae": "&lt;<i>♫</i>&gt; I play",
+        "slidePhrases": "[\"soulful melodies.\", \"classical symphonies.\", \"Arabic rhythms.\", \"contemporary fusion.\", \"heart-touching music.\"]",
+        "endStaticPhrae": "&lt;/<i>♫</i>&gt;",
+        "btnText": "Listen now",
+        "btnLink": "",
+        "linkText": "Book a performance",
+        "linkUrl": "https://calendly.com/bernadayoub",
+        "bgImgPath": "img/bg.jpg",
+        "imgPath": "img/bg.jpg"
+      },
+      "counters": [
+        ["Years Performing", 11],
+        ["Concerts Played", 120],
+        ["Students Taught", 65],
+        ["Awards Won", 8]
+      ],
+      "services": [
+        {
+          "title": "Live Performances",
+          "description": "Experience the magic of live violin music for your events, weddings, corporate functions, and special occasions. I bring emotion and elegance to every performance.",
+          "linkUrl": "https://wa.me/+96181311749"
+        },
+        {
+          "title": "Music Recording",
+          "description": "Professional violin recording services for albums, film scores, commercials, and musical projects with high-quality studio equipment.",
+          "linkUrl": "https://wa.me/+96181311749"
+        },
+        {
+          "title": "Violin Lessons",
+          "description": "Personalized violin instruction for all levels, from beginners to advanced players, focusing on technique, musicality, and personal expression.",
+          "linkUrl": "https://wa.me/+96181311749"
+        },
+        {
+          "title": "Music Composition",
+          "description": "Custom music composition and arrangement services for your projects, blending classical training with contemporary influences.",
+          "linkUrl": "https://wa.me/+96181311749"
+        },
+        {
+          "title": "Orchestral Work",
+          "description": "Professional orchestral violin performance with experience in symphony orchestras, chamber ensembles, and musical theater productions.",
+          "linkUrl": "https://wa.me/+96181311749"
+        },
+        {
+          "title": "Workshops & Masterclasses",
+          "description": "Educational workshops and masterclasses for music schools, universities, and cultural institutions focusing on violin technique and musical interpretation.",
+          "linkUrl": "https://wa.me/+96181311749"
+        }
+      ],
+      "prices": [
+        {
+          "title": "String of Beginnings",
+          "price": "<span>$</span>20<span> / course</span>",
+          "isPopular": false,
+          "conditions": [
+            ["Introduction to the basics of violin playing", false],
+            ["Understanding violin parts and proper posture", false],
+            ["Simple scales and beginner exercises", false],
+            ["Developing a sense of rhythm and timing", false],
+            ["Reading basic musical notation", false],
+            ["Practice strategies for steady progress", false],
+            ["Lifetime access to all video lessons", false],
+            ["Certificate of completion", true],
+            ["Performance evaluation by Berna", true],
+            ["Bonus warm-up routines", true]
+          ],
+          "linkUrl": "https://wa.me/+96181311749",
+          "note": "The first step in your musical journey"
+        },
+        {
+          "title": "Tones of Foundation",
+          "price": "<span>$</span>30<span> / course</span>",
+          "isPopular": true,
+          "conditions": [
+            ["Intermediate bow control techniques", false],
+            ["Improving finger placement and intonation", false],
+            ["Introduction to vibrato", false],
+            ["Performing simple musical pieces with expression", false],
+            ["Downloadable PDF exercises", false],
+            ["Intermediate rhythm and coordination drills", false],
+            ["Play-along ensemble practices", false],
+            ["Certificate of completion", true],
+            ["Access to future lesson updates", true],
+            ["Email interaction with Berna", true]
+          ],
+          "linkUrl": "https://wa.me/+96181311749",
+          "note": "The stage where your musical voice begins to form"
+        },
+        {
+          "title": "Rhythm of Progress",
+          "price": "<span>$</span>40<span> / course</span>",
+          "isPopular": false,
+          "conditions": [
+            ["Advanced control of bowing and dynamics", false],
+            ["Performing challenging intermediate repertoire", false],
+            ["Expanding tonal range and expression", false],
+            ["Analyzing complex musical phrases", false],
+            ["Applying professional-level techniques", false],
+            ["Recording and performance tips", false],
+            ["Access to extended video lessons", false],
+            ["Certificate of completion", true],
+            ["Priority student support", true],
+            ["Access to masterclasses", true]
+          ],
+          "linkUrl": "https://wa.me/+96181311749",
+          "note": "For players ready to advance toward professionalism"
+        },
+        {
+          "title": "Voice of Expression",
+          "price": "<span>$</span>50<span> / course</span>",
+          "isPopular": false,
+          "conditions": [
+            ["Emotional control and expressive phrasing", false],
+            ["Building a unique artistic identity", false],
+            ["Developing stage presence and improvisation", false],
+            ["Preparing for concerts and competitions", false],
+            ["Artistic and interpretive development", false],
+            ["Advanced analysis of musical style", false],
+            ["Personal expression and tone shaping", false],
+            ["Certificate of excellence", true],
+            ["One-on-one evaluation session with Berna", true],
+            ["Career guidance and mentorship", true]
+          ],
+          "linkUrl": "https://wa.me/+96181311749",
+          "note": "A deep exploration of musical emotion and identity"
+        },
+        {
+          "title": "The Violin Stage",
+          "price": "<span>$</span>60<span> / course</span>",
+          "isPopular": false,
+          "conditions": [
+            ["Full access to all course levels", false],
+            ["Exclusive lessons and behind-the-scenes content", false],
+            ["Live private consultations with Berna", false],
+            ["Professional performance review and feedback", false],
+            ["Opportunities for artistic collaboration", false],
+            ["Continuous course updates", false],
+            ["Personal long-term development plan", false],
+            ["Certificate of mastery", true],
+            ["Ongoing mentorship and coaching", true],
+            ["Lifetime artistic guidance", true]
+          ],
+          "linkUrl": "https://wa.me/+96181311749",
+          "note": "The complete violin learning experience from beginner to stage performance"
+        }
+      ],
+      "recommendations": [
+        {
+          "imgPath": "img/testimonials/director.jpg",
+          "name": "Leila Khoury",
+          "description": "Event Director - Beirut International Festival",
+          "text": "Berna's performances are simply mesmerizing. Her ability to blend classical technique with Arabic rhythms creates a unique musical experience that captivates audiences. She has been a highlight of our festival for three consecutive years.",
+          "stars": 5
+        },
+        {
+          "imgPath": "img/testimonials/student.jpg",
+          "name": "Yara Chamoun",
+          "description": "Music Student",
+          "text": "Studying violin with Berna has transformed my understanding of music. Her teaching methods are innovative yet rooted in solid technique. She inspires her students to find their own musical voice while maintaining technical excellence.",
+          "stars": 5
+        },
+        {
+          "imgPath": "img/testimonials/producer.jpg",
+          "name": "Samir Fares",
+          "description": "Music Producer",
+          "text": "Working with Berna in the studio is a producer's dream. Her precision, musicality, and professionalism make every session productive and inspiring. She brings depth and emotion to every note she plays.",
+          "stars": 5
+        }
+      ]
+    },
+    "gallery": {
+      "filter_nav": [
+        ["*", "All Performances"],
+        [".live", "Live Concerts"],
+        [".studio", "Studio Recordings"],
+        [".teaching", "Teaching"]
+      ],
+      "filter_list": [
+        {
+          "type": "studio",
+          "imgPath": "img/gallery/studio-1.png",
+          "title": "Experience",
+          "description": "",
+          "templateUrl": "https://www.tiktok.com/@berna_dayoub/video/7185940330875768066?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
+          "hBG": [true, "#000"]
+        },
+        {
+          "type": "studio",
+          "imgPath": "img/gallery/studio-2.png",
+          "title": "Memories",
+          "description": "",
+          "templateUrl": "https://www.tiktok.com/@berna_dayoub/video/7503671273952709895?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
+          "hBG": [true, "#000"]
+        },
+        {
+          "type": "studio",
+          "imgPath": "img/gallery/studio-3.png",
+          "title": "",
+          "description": "",
+          "templateUrl": "https://www.tiktok.com/@berna_dayoub/video/7488438898335436040?is_from_webapp=1&sender_device=pc&web_id=7555521971325928972",
+          "hBG": [true, "#000"]
+        }
+      ]
+    },
+    "history": [
+      {
+        "title": "Education",
+        "data": [
+          {
+            "box": "diplome",
+            "type": "Master Degree",
+            "src": "Lebanese National Conservatory",
+            "title": "Violin Performance",
+            "date": "2018",
+            "description": "Master of Music in Violin Performance with honors",
+            "linkPath": "files/conservatory-diploma.jpg",
+            "havePopup": false,
+            "popup": null
+          },
+          {
+            "box": "diplome",
+            "type": "Bachelor Degree",
+            "src": "Higher Institute of Music, Damascus",
+            "title": "Music Performance",
+            "date": "2015",
+            "description": "Bachelor of Arts in Music Performance, Violin Major",
+            "linkPath": "files/bachelor-diploma.jpg",
+            "havePopup": false,
+            "popup": null
+          },
+          {
+            "box": "diplome",
+            "type": "Diploma",
+            "src": "Royal Academy of Music",
+            "title": "Advanced Violin Studies",
+            "date": "2019",
+            "description": "Advanced diploma in violin performance and pedagogy",
+            "linkPath": "files/royal-academy.jpg",
+            "havePopup": false,
+            "popup": null
+          }
+        ]
+      },
+      {
+        "title": "Performance History",
+        "data": [
+          {
+            "box": "recommendation",
+            "type": "Soloist",
+            "src": "Beirut International Festival",
+            "title": "Featured Performer",
+            "date": "2021-2024",
+            "description": "Annual featured soloist at Lebanon's premier music festival, performing to audiences of 3,000+",
+            "linkPath": "https://beirutfestival.org",
+            "havePopup": false,
+            "popup": {}
+          },
+          {
+            "box": "recommendation",
+            "type": "Orchestral",
+            "src": "Lebanese National Symphony",
+            "title": "First Violin",
+            "date": "2018-2023",
+            "description": "First violin section member of the National Symphony Orchestra, performing classical repertoire and contemporary works",
+            "linkPath": "https://lns-orchestra.lb",
+            "havePopup": false,
+            "popup": {}
+          },
+          {
+            "box": "recommendation",
+            "type": "Teaching",
+            "src": "Lebanese National Conservatory",
+            "title": "Violin Professor",
+            "date": "2019-Present",
+            "description": "Professor of violin studies, teaching undergraduate and graduate students in performance and pedagogy",
+            "linkPath": "https://conservatory.gov.lb",
+            "havePopup": false,
+            "popup": {}
+          }
+        ]
+      }
+    ],
+    "contact": [
+      {
+        "id": 1,
+        "data": [
+          ["Country:", "Lebanon", "l"],
+          ["City:", "Beirut", "l"],
+          ["Studio:", "Music Quarter, Hamra Street", "l"]
+        ]
+      },
+      {
+        "id": 2,
+        "data": [
+          ["Email:", "me@berna-violin.art", "e"],
+          ["Whatsapp:", "+96181311749", "w"],
+          ["Studio:", "+96113876543", "p"]
+        ]
+      }
+    ]
+  },
+  "Brand": ["img/brands/violin-1.png", "img/brands/music-2.png"],
+  "Copyright": ["https://wa.me/+96181311749", "Berna Dayoub"],
+  "Menu": ["Home", "Gallery", "Career", "Contact"],
+  "Language": [
+    ["EN", true, "en"],
+    ["AR", false, "ar"],
+    ["FR", false, "fr"]
+  ],
+  "Preloader": {
+    "id": "preloader",
+    "Name": "Berna Dayoub",
+    "JobTitle": "Professional Violinist"
+  }
+}
