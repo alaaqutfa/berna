@@ -3,6 +3,7 @@ $(function () {
   var currentYear = new Date().getFullYear();
   //* Languages :
   var portfolio_en = {
+    OrderBtnText: "Order now",
     Data: {
       Top: {
         Avatar: "img/face-1.png",
@@ -126,7 +127,7 @@ $(function () {
         prices: [
           {
             title: "String of Beginnings",
-            price: "<span>$</span>25<span> / course</span>",
+            price: "<span>$</span>40<span> / course</span>",
             isPopular: false,
             conditions: [
               ["Introduction to the basics of violin playing", false],
@@ -146,7 +147,7 @@ $(function () {
           },
           {
             title: "Tones of Foundation",
-            price: "<span>$</span>35<span> / course</span>",
+            price: "<span>$</span>45<span> / course</span>",
             isPopular: false,
             conditions: [
               ["Intermediate bow control techniques", false],
@@ -168,7 +169,7 @@ $(function () {
           },
           {
             title: "Rhythm of Progress",
-            price: "<span>$</span>45<span> / course</span>",
+            price: "<span>$</span>55<span> / course</span>",
             isPopular: false,
             conditions: [
               ["Developing control of rhythm and dynamics", false],
@@ -185,7 +186,7 @@ $(function () {
           },
           {
             title: "Voice of Expression",
-            price: "<span>$</span>50<span> / course</span>",
+            price: "<span>$</span>65<span> / course</span>",
             isPopular: false,
             conditions: [
               ["New songs", false],
@@ -201,7 +202,7 @@ $(function () {
           },
           {
             title: "The Violin Stage",
-            price: "<span>$</span>70<span> / course</span>",
+            price: "<span>$</span>99<span> / course</span>",
             isPopular: false,
             conditions: [
               ["Comprehensive access to advanced academic level", false],
@@ -361,6 +362,7 @@ $(function () {
     }
   };
   var portfolio_ar = {
+    OrderBtnText: "سجل الأن",
     Data: {
       Top: {
         Avatar: "img/face-1.png",
@@ -484,7 +486,7 @@ $(function () {
         prices: [
           {
             title: "وتر البداية",
-            price: "<span>$</span>25<span> / دورة</span>",
+            price: "<span>$</span>40<span> / دورة</span>",
             isPopular: false,
             conditions: [
               ["مقدمة في أساسيات العزف على الكمان", false],
@@ -504,7 +506,7 @@ $(function () {
           },
           {
             title: "أنغام التأسيس",
-            price: "<span>$</span>35<span> / دورة</span>",
+            price: "<span>$</span>45<span> / دورة</span>",
             isPopular: false,
             conditions: [
               ["تقنيات متوسطة في التحكم بالقوس", false],
@@ -526,7 +528,7 @@ $(function () {
           },
           {
             title: "إيقاع التقدم",
-            price: "<span>$</span>45<span> / دورة</span>",
+            price: "<span>$</span>55<span> / دورة</span>",
             isPopular: false,
             conditions: [
               ["تطوير التحكم في الإيقاع والديناميكية", false],
@@ -543,7 +545,7 @@ $(function () {
           },
           {
             title: "صوت التعبير",
-            price: "<span>$</span>50<span> / دورة</span>",
+            price: "<span>$</span>65<span> / دورة</span>",
             isPopular: false,
             conditions: [
               ["اغاني جديدة", false],
@@ -559,7 +561,7 @@ $(function () {
           },
           {
             title: "مسرح الكمان",
-            price: "<span>$</span>70<span> / دورة</span>",
+            price: "<span>$</span>99<span> / دورة</span>",
             isPopular: false,
             conditions: [
               ["وصول شامل إلى مستوى متقدم اكاديمي", false],
@@ -719,6 +721,7 @@ $(function () {
     }
   };
   var portfolio_fr = {
+    OrderBtnText: "abonnez-vous maintenant",
     Data: {
       Top: {
         Avatar: "img/face-1.png",
@@ -842,7 +845,7 @@ $(function () {
         prices: [
           {
             title: "Corde des débuts",
-            price: "<span>$</span>25<span> / cours</span>",
+            price: "<span>$</span>40<span> / cours</span>",
             isPopular: false,
             conditions: [
               ["Introduction aux bases du violon", false],
@@ -862,7 +865,7 @@ $(function () {
           },
           {
             title: "Sons de la fondation",
-            price: "<span>$</span>35<span> / cours</span>",
+            price: "<span>$</span>45<span> / cours</span>",
             isPopular: false,
             conditions: [
               ["Techniques d'archet intermédiaires", false],
@@ -884,7 +887,7 @@ $(function () {
           },
           {
             title: "Rythme du progrès",
-            price: "<span>$</span>45<span> / cours</span>",
+            price: "<span>$</span>55<span> / cours</span>",
             isPopular: false,
             conditions: [
               ["Développement du contrôle du rythme et de la dynamique", false],
@@ -901,7 +904,7 @@ $(function () {
           },
           {
             title: "Voix de l'expression",
-            price: "<span>$</span>50<span> / cours</span>",
+            price: "<span>$</span>65<span> / cours</span>",
             isPopular: false,
             conditions: [
               ["Nouvelles pièces au choix", false],
@@ -917,7 +920,7 @@ $(function () {
           },
           {
             title: "La scène du violon",
-            price: "<span>$</span>70<span> / cours</span>",
+            price: "<span>$</span>99<span> / cours</span>",
             isPopular: false,
             conditions: [
               ["Accès complet au niveau académique avancé", false],
@@ -1308,7 +1311,7 @@ $(function () {
             <a
               href="${item.linkUrl}"
               class="art-link art-color-link art-w-chevron"
-              >Order now</a
+              >${portfolio.OrderBtnText}</a
             >
           </div>
         </div>
@@ -1333,15 +1336,16 @@ $(function () {
             <a
               href="${item.linkUrl}"
               class="art-link art-color-link art-w-chevron"
-              >Order now</a
+              >${portfolio.OrderBtnText}</a
             >
             ${item.note != null
         ? `<div class="art-asterisk">
             <sup>*</sup>${item.note}
           </div>`
-        : `<div class="art-asterisk">
-            <sup>*</sup>Free only when ordering paid services
-          </div>`
+        : ``
+      // `<div class="art-asterisk">
+      //     <sup>*</sup>Free only when ordering paid services
+      //   </div>`
       }
           </div>
         </div>
