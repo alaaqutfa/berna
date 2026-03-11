@@ -349,7 +349,7 @@ $(function () {
     },
     Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
     Copyright: ["https://wa.me/+96181139596", "Berna Dayoub"],
-    Menu: ["Home", "Gallery", "Career", "Contact"],
+    Menu: ["Home", "Gallery", "Career", "Contact", "Login"],
     Language: [
       ["EN", true, "en"],
       ["AR", false, "ar"],
@@ -708,7 +708,7 @@ $(function () {
     },
     Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
     Copyright: ["https://wa.me/+96181139596", "بيرنا ديوب"],
-    Menu: ["الرئيسية", "المعرض", "السيرة", "اتصل بي"],
+    Menu: ["الرئيسية", "المعرض", "السيرة", "اتصل بي", "تسجيل الدخول"],
     Language: [
       ["EN", false, "en"],
       ["ع", true, "ar"],
@@ -1067,7 +1067,7 @@ $(function () {
     },
     Brand: ["img/brands/violin-1.png", "img/brands/music-2.png"],
     Copyright: ["https://wa.me/+96181139596", "Berna Dayoub"],
-    Menu: ["Accueil", "Galerie", "Parcours", "Contact"],
+    Menu: ["Accueil", "Galerie", "Parcours", "Contact", "Login"],
     Language: [
       ["EN", false, "en"],
       ["AR", false, "ar"],
@@ -1212,11 +1212,20 @@ $(function () {
           <div id="${portfolio.Preloader.id}" class="art-preloader-load"></div>
   `);
   jQuery.each(portfolio.Menu, (index, item) => {
+    let linkHtml;
+
+    // إذا هذا آخر عنصر في المصفوفة
+    if (index === portfolio.Menu.length - 1) {
+      linkHtml = `<a href="https://berna-violin.art/learning/login">${item}</a>`;
+    } else {
+      linkHtml = `<a>${item}</a>`;
+    }
+
     portfolio_menu.innerHTML += `
-  <li class="menu-item route ${index == 0 ? "current-menu-item" : ""} ">
-    <a>${item}</a>
-  </li>
-  `;
+        <li class="menu-item route ${index == 0 ? "current-menu-item" : ""}">
+            ${linkHtml}
+        </li>
+    `;
   });
   $(".route").on("click", function () {
     var i = $(this).index();
