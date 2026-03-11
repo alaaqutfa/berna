@@ -93,7 +93,7 @@ $(function () {
           btnText: "Listen now",
           btnLink: "",
           linkText: "Book a performance",
-          linkUrl: "https://calendly.com/bernadayoub",
+          linkUrl: "https://wa.me/+96181139596",
           bgImgPath: "img/bg.jpg",
           imgPath: "img/bg.jpg"
         },
@@ -452,7 +452,7 @@ $(function () {
           btnText: "استمع الآن",
           btnLink: "",
           linkText: "احجز أداءً",
-          linkUrl: "https://calendly.com/bernadayoub",
+          linkUrl: "https://wa.me/+96181139596",
           bgImgPath: "img/bg.jpg",
           imgPath: "img/bg.jpg"
         },
@@ -811,7 +811,7 @@ $(function () {
           btnText: "Écouter maintenant",
           btnLink: "",
           linkText: "Réserver une prestation",
-          linkUrl: "https://calendly.com/bernadayoub",
+          linkUrl: "https://wa.me/+96181139596",
           bgImgPath: "img/bg.jpg",
           imgPath: "img/bg.jpg"
         },
@@ -1320,6 +1320,9 @@ $(function () {
     `;
   });
   jQuery.each(portfolio.Content.home.prices, (index, item) => {
+    let courseName = item.title;
+    let message = "أرغب بالاشتراك في دورة " + courseName;
+    let whatsappLink = "https://wa.me/96181139596?text=" + encodeURIComponent(message);
     portfolio_content_home_price.innerHTML += `
         <div class="col-lg-4">
         <div class="art-a art-price ${item.isPopular == true ? "art-popular-price" : ""
@@ -1332,7 +1335,7 @@ $(function () {
             <ul class="price-list art-price-list">
             </ul>
             <a
-              href="${item.linkUrl}"
+              href="${whatsappLink}"
               class="art-link art-color-link art-w-chevron"
               >${portfolio.OrderBtnText}</a
             >
