@@ -1320,8 +1320,6 @@ $(function () {
     `;
   });
   jQuery.each(portfolio.Content.home.prices, (index, item) => {
-    console.log(item.note != null);
-
     portfolio_content_home_price.innerHTML += `
         <div class="col-lg-4">
         <div class="art-a art-price ${item.isPopular == true ? "art-popular-price" : ""
@@ -1357,16 +1355,16 @@ $(function () {
         }">${c[0]}</li>`;
     });
   });
-  jQuery.each(portfolio.Brand, (index, item) => {
-    portfolio_brands.innerHTML += `
-    <div class="col-6 col-lg-3">
-                      <img
-                        class="art-brand"
-                        src="${item}"
-                        alt="brand"
-                      />
-                    </div>`;
-  });
+  // jQuery.each(portfolio.Brand, (index, item) => {
+  //   portfolio_brands.innerHTML += `
+  //   <div class="col-6 col-lg-3">
+  //       <img
+  //         class="art-brand"
+  //         src="${item}"
+  //         alt="brand"
+  //       />
+  //   </div>`;
+  // });
   if (portfolio.Content.home.recommendations) {
     jQuery.each(portfolio.Content.home.recommendations, (index, item) => {
       portfolio_content_home_recommendations.innerHTML += `
