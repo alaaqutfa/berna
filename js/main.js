@@ -102,6 +102,7 @@ $(function () {
           ["Concerts", 120],
           ["Students Taught", 65]
         ],
+        services_title: "Services",
         services: [
           {
             title: "Music Recording",
@@ -124,6 +125,7 @@ $(function () {
             linkUrl: "https://wa.me/+96181139596"
           }
         ],
+        prices_title: "Courses",
         prices: [
           {
             title: "String of Beginnings",
@@ -461,6 +463,7 @@ $(function () {
           ["الحفلات الموسيقية", 120],
           ["الطلاب المُدرَّبين", 65]
         ],
+        services_title: "الخدمات",
         services: [
           {
             title: "التسجيلات الموسيقية",
@@ -483,6 +486,7 @@ $(function () {
             linkUrl: "https://wa.me/+96181139596"
           }
         ],
+        prices_title: "الدورات",
         prices: [
           {
             title: "وتر البداية",
@@ -820,6 +824,7 @@ $(function () {
           ["Concerts", 120],
           ["Élèves formés", 65]
         ],
+        services_title: "Services",
         services: [
           {
             title: "Enregistrement musical",
@@ -842,6 +847,7 @@ $(function () {
             linkUrl: "https://wa.me/+96181139596"
           }
         ],
+        prices_title: "Courses",
         prices: [
           {
             title: "Corde des débuts",
@@ -1106,8 +1112,14 @@ $(function () {
     portfolio_content_home_counters = document.getElementById(
       "portfolio-content-home-counters"
     ),
+    portfolio_content_home_services_title = document.getElementById(
+      "services_title"
+    ),
     portfolio_content_home_services = document.getElementById(
       "portfolio-content-home-services"
+    ),
+    portfolio_content_home_prices_title = document.getElementById(
+      "prices_title"
     ),
     portfolio_content_home_price = document.getElementById(
       "portfolio-content-home-price"
@@ -1307,6 +1319,7 @@ $(function () {
     </div>
     `;
   });
+  portfolio_content_home_services_title.innerText = portfolio.Content.home.services_title;
   jQuery.each(portfolio.Content.home.services, (index, item) => {
     portfolio_content_home_services.innerHTML += `
     <div class="col-lg-4 col-md-6">
@@ -1328,6 +1341,7 @@ $(function () {
     </div>
     `;
   });
+  portfolio_content_home_prices_title.innerText = portfolio.Content.home.prices_title;
   jQuery.each(portfolio.Content.home.prices, (index, item) => {
     let courseName = item.title;
     let message = "أرغب بالاشتراك في دورة " + courseName;
