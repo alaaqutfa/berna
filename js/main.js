@@ -1358,7 +1358,7 @@ $(function () {
             <ul class="price-list art-price-list">
             </ul>
             <a
-              href="${whatsappLink}"
+              href="https://berna-violin.art/learning/levels"
               class="art-link art-color-link art-w-chevron"
               >${portfolio.OrderBtnText}</a
             >
