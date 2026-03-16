@@ -1343,9 +1343,11 @@ $(function () {
   });
   portfolio_content_home_prices_title.innerText = portfolio.Content.home.prices_title;
   jQuery.each(portfolio.Content.home.prices, (index, item) => {
-    let courseName = item.title;
-    let message = "أرغب بالاشتراك في دورة " + courseName;
-    let whatsappLink = "https://wa.me/96181139596?text=" + encodeURIComponent(message);
+    console.log(item.title);
+    console.log('https://berna-violin.art/learning/levels');
+    // let courseName = item.title;
+    // let message = "أرغب بالاشتراك في دورة " + courseName;
+    // let whatsappLink = "https://wa.me/96181139596?text=" + encodeURIComponent(message);
     portfolio_content_home_price.innerHTML += `
         <div class="col-lg-4">
         <div class="art-a art-price ${item.isPopular == true ? "art-popular-price" : ""
